@@ -2,3 +2,5 @@ onnx
 numpy
 matplotlib
 tqdm
+colorlog
+scikit-learn
