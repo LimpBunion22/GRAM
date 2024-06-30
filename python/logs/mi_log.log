@@ -1,0 +1,1669 @@
+2024-06-30 17:04:26,646 - my_logger - WARNING - ---BASIC TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 1 |     FAILED
+     error: 'tuple' object cannot be interpreted as an integer
+     traceback: Traceback (most recent call last):
+  File "C:\Users\Diego\Desktop\GRAM\python\source\tests\basic_tests.py", line 17, in run_basic_test
+    my_istar.init_weights(method = "random", val = 10)
+  File "C:\Users\Diego\Desktop\GRAM\python\source\core\schmidt.py", line 43, in init_weights
+    self.weights = val*(1-np.random.rand((self.n_base_funcs,self.n_dim)))
+  File "numpy\\random\\mtrand.pyx", line 1242, in numpy.random.mtrand.RandomState.rand
+  File "numpy\\random\\mtrand.pyx", line 441, in numpy.random.mtrand.RandomState.random_sample
+  File "_common.pyx", line 312, in numpy.random._common.double_fill
+TypeError: 'tuple' object cannot be interpreted as an integer
+     2. Data dimensions: 10, Base functions: 20 |     FAILED
+     error: 'tuple' object cannot be interpreted as an integer
+     traceback: Traceback (most recent call last):
+  File "C:\Users\Diego\Desktop\GRAM\python\source\tests\basic_tests.py", line 37, in run_basic_test
+    my_istar.init_weights(method = "random", val = 10)
+  File "C:\Users\Diego\Desktop\GRAM\python\source\core\schmidt.py", line 43, in init_weights
+    self.weights = val*(1-np.random.rand((self.n_base_funcs,self.n_dim)))
+  File "numpy\\random\\mtrand.pyx", line 1242, in numpy.random.mtrand.RandomState.rand
+  File "numpy\\random\\mtrand.pyx", line 441, in numpy.random.mtrand.RandomState.random_sample
+  File "_common.pyx", line 312, in numpy.random._common.double_fill
+TypeError: 'tuple' object cannot be interpreted as an integer
+ [main.py:21]
+2024-06-30 17:06:23,610 - my_logger - WARNING - ---BASIC TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 1 |     FAILED
+
+     error: 'tuple' object cannot be interpreted as an integer
+
+     traceback: Traceback (most recent call last):
+  File "C:\Users\Diego\Desktop\GRAM\python\source\tests\basic_tests.py", line 17, in run_basic_test
+    my_istar.init_weights(method = "random", val = 10)
+  File "C:\Users\Diego\Desktop\GRAM\python\source\core\schmidt.py", line 43, in init_weights
+    self.weights = val*(1-np.random.rand((self.n_base_funcs,self.n_dim)))
+  File "numpy\\random\\mtrand.pyx", line 1242, in numpy.random.mtrand.RandomState.rand
+  File "numpy\\random\\mtrand.pyx", line 441, in numpy.random.mtrand.RandomState.random_sample
+  File "_common.pyx", line 312, in numpy.random._common.double_fill
+TypeError: 'tuple' object cannot be interpreted as an integer
+ [main.py:21]
+2024-06-30 17:09:05,989 - my_logger - WARNING - ---BASIC TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 1 |     PASS
+     2. Data dimensions: 10, Base functions: 20 |     FAILED
+
+     error: index 10 is out of bounds for axis 0 with size 10
+
+     traceback: Traceback (most recent call last):
+  File "C:\Users\Diego\Desktop\GRAM\python\source\tests\basic_tests.py", line 41, in run_basic_test
+    my_istar.init_bias(method = "lineal")
+  File "C:\Users\Diego\Desktop\GRAM\python\source\core\schmidt.py", line 85, in init_bias
+    dim_cnt[j] += 1
+IndexError: index 10 is out of bounds for axis 0 with size 10
+ [main.py:21]
+2024-06-30 17:13:04,501 - my_logger - INFO - ---BASIC TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 1 |     PASS
+     2. Data dimensions: 10, Base functions: 20 |     PASS
+ [main.py:19]
+2024-06-30 17:13:04,797 - my_logger - WARNING - O2B PROYECTIONS: NAN ERROR [schmidt.py:286]
+2024-06-30 17:13:04,797 - my_logger - WARNING - BETAS: NAN ERROR [schmidt.py:290]
+2024-06-30 17:13:04,798 - my_logger - WARNING - ---CORE TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 100 |     FAILED
+     error: setting an array element with a sequence.
+     traceback: TypeError: only length-1 arrays can be converted to Python scalars
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Diego\Desktop\GRAM\python\source\tests\basic_tests.py", line 77, in run_core_test
+    my_istar.evaluate_proyection(data_in, data_area, data_lab)
+  File "C:\Users\Diego\Desktop\GRAM\python\source\core\schmidt.py", line 166, in evaluate_proyection
+    proyections_f2b[i] += labels[d]*data_sum
+ValueError: setting an array element with a sequence.
+ [main.py:28]
+2024-06-30 17:47:40,559 - my_logger - INFO - ---BASIC TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 1 |     PASS
+     2. Data dimensions: 10, Base functions: 20 |     PASS
+ [main.py:19]
+2024-06-30 17:47:40,843 - my_logger - WARNING - O2B PROYECTIONS: NAN ERROR [schmidt.py:286]
+2024-06-30 17:47:40,843 - my_logger - DEBUG - [[ 0.  0.  0. ...  0.  0.  0.]
+ [nan  0.  0. ...  0.  0.  0.]
+ [nan nan  0. ...  0.  0.  0.]
+ ...
+ [nan nan nan ...  0.  0.  0.]
+ [nan nan nan ... nan  0.  0.]
+ [nan nan nan ... nan nan  0.]] [schmidt.py:287]
+2024-06-30 17:47:40,846 - my_logger - WARNING - BETAS: NAN ERROR [schmidt.py:291]
+2024-06-30 17:47:40,846 - my_logger - WARNING - ---CORE TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 100 |     FAILED
+     error: setting an array element with a sequence.
+     traceback: TypeError: only length-1 arrays can be converted to Python scalars
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Diego\Desktop\GRAM\python\source\tests\basic_tests.py", line 77, in run_core_test
+    my_istar.evaluate_proyection(data_in, data_area, data_lab)
+  File "C:\Users\Diego\Desktop\GRAM\python\source\core\schmidt.py", line 166, in evaluate_proyection
+    proyections_f2b[i] += labels[d]*data_sum
+ValueError: setting an array element with a sequence.
+ [main.py:28]
+2024-06-30 17:49:06,613 - my_logger - INFO - ---BASIC TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 1 |     PASS
+     2. Data dimensions: 10, Base functions: 20 |     PASS
+ [main.py:19]
+2024-06-30 17:51:11,113 - my_logger - INFO - ---BASIC TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 1 |     PASS
+     2. Data dimensions: 10, Base functions: 20 |     PASS
+ [main.py:19]
+2024-06-30 17:52:58,601 - my_logger - INFO - ---BASIC TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 1 |     PASS
+     2. Data dimensions: 10, Base functions: 20 |     PASS
+ [main.py:19]
+2024-06-30 17:57:31,841 - my_logger - INFO - ---BASIC TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 1 |     PASS
+     2. Data dimensions: 10, Base functions: 20 |     PASS
+ [main.py:19]
+2024-06-30 17:57:32,045 - my_logger - WARNING - B2B PROYECTIONS: NAN ERROR [schmidt.py:254]
+2024-06-30 17:57:32,046 - my_logger - WARNING - ---CORE TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 100 |     FAILED
+     error: setting an array element with a sequence.
+     traceback: TypeError: only length-1 arrays can be converted to Python scalars
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Diego\Desktop\GRAM\python\source\tests\basic_tests.py", line 77, in run_core_test
+    my_istar.evaluate_proyection(data_in, data_area, data_lab)
+  File "C:\Users\Diego\Desktop\GRAM\python\source\core\schmidt.py", line 166, in evaluate_proyection
+    proyections_f2b[i] += labels[d]*data_sum
+ValueError: setting an array element with a sequence.
+ [main.py:28]
+2024-06-30 18:03:51,409 - my_logger - INFO - ---BASIC TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 1 |     PASS
+     2. Data dimensions: 10, Base functions: 20 |     PASS
+ [main.py:19]
+2024-06-30 18:03:51,412 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,417 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,421 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,430 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,434 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,438 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,443 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,447 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,451 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,455 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,463 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,467 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,471 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,475 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,479 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,482 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,486 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,489 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,493 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,499 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,503 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,507 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,513 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,516 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,521 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,526 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,530 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,533 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,536 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,541 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,544 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,547 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,553 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,556 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,561 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,563 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,566 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,569 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,573 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,576 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,578 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,580 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,585 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,587 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,589 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,595 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,599 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,601 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,603 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,604 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,608 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,611 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,612 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,615 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,617 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,618 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,621 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,622 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,623 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,625 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,626 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,627 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,631 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,632 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,633 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,633 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,634 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,635 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,636 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,637 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,637 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,638 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,638 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,639 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,639 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,639 - my_logger - WARNING - Zero in Denominator [schmidt.py:244]
+2024-06-30 18:03:51,800 - my_logger - WARNING - O2B PROYECTIONS: NAN ERROR [schmidt.py:290]
+2024-06-30 18:03:51,800 - my_logger - DEBUG - [[ 0.  0.  0. ...  0.  0.  0.]
+ [nan  0.  0. ...  0.  0.  0.]
+ [nan nan  0. ...  0.  0.  0.]
+ ...
+ [nan nan nan ...  0.  0.  0.]
+ [nan nan nan ... nan  0.  0.]
+ [nan nan nan ... nan nan  0.]] [schmidt.py:291]
+2024-06-30 18:03:51,801 - my_logger - WARNING - BETAS: NAN ERROR [schmidt.py:295]
+2024-06-30 18:03:51,802 - my_logger - WARNING - ---CORE TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 100 |     FAILED
+     error: setting an array element with a sequence.
+     traceback: TypeError: only length-1 arrays can be converted to Python scalars
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Diego\Desktop\GRAM\python\source\tests\basic_tests.py", line 77, in run_core_test
+    my_istar.evaluate_proyection(data_in, data_area, data_lab)
+  File "C:\Users\Diego\Desktop\GRAM\python\source\core\schmidt.py", line 166, in evaluate_proyection
+    proyections_f2b[i] += labels[d]*data_sum
+ValueError: setting an array element with a sequence.
+ [main.py:28]
+2024-06-30 18:06:21,560 - my_logger - INFO - ---BASIC TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 1 |     PASS
+     2. Data dimensions: 10, Base functions: 20 |     PASS
+ [main.py:19]
+2024-06-30 18:06:21,563 - my_logger - WARNING - Zero in Proyection of i: 0 over j: 1 W1s = -100.0 W2s = 100.0 b1 = -0.99 b2 = -0.97 [schmidt.py:249]
+2024-06-30 18:06:21,568 - my_logger - WARNING - Zero in Proyection of i: 1 over j: 2 W1s = -100.0 W2s = 100.0 b1 = -0.97 b2 = -0.95 [schmidt.py:249]
+2024-06-30 18:06:21,572 - my_logger - WARNING - Zero in Proyection of i: 2 over j: 3 W1s = -100.0 W2s = 100.0 b1 = -0.95 b2 = -0.9299999999999999 [schmidt.py:249]
+2024-06-30 18:06:21,581 - my_logger - WARNING - Zero in Proyection of i: 4 over j: 5 W1s = -100.0 W2s = 100.0 b1 = -0.9099999999999999 b2 = -0.8899999999999999 [schmidt.py:249]
+2024-06-30 18:06:21,585 - my_logger - WARNING - Zero in Proyection of i: 5 over j: 6 W1s = -100.0 W2s = 100.0 b1 = -0.8899999999999999 b2 = -0.8699999999999999 [schmidt.py:249]
+2024-06-30 18:06:21,590 - my_logger - WARNING - Zero in Proyection of i: 6 over j: 7 W1s = -100.0 W2s = 100.0 b1 = -0.8699999999999999 b2 = -0.8499999999999999 [schmidt.py:249]
+2024-06-30 18:06:21,594 - my_logger - WARNING - Zero in Proyection of i: 7 over j: 8 W1s = -100.0 W2s = 100.0 b1 = -0.8499999999999999 b2 = -0.8299999999999998 [schmidt.py:249]
+2024-06-30 18:06:21,598 - my_logger - WARNING - Zero in Proyection of i: 8 over j: 9 W1s = -100.0 W2s = 100.0 b1 = -0.8299999999999998 b2 = -0.8099999999999998 [schmidt.py:249]
+2024-06-30 18:06:21,603 - my_logger - WARNING - Zero in Proyection of i: 9 over j: 10 W1s = -100.0 W2s = 100.0 b1 = -0.8099999999999998 b2 = -0.7899999999999998 [schmidt.py:249]
+2024-06-30 18:06:21,607 - my_logger - WARNING - Zero in Proyection of i: 10 over j: 11 W1s = -100.0 W2s = 100.0 b1 = -0.7899999999999998 b2 = -0.7699999999999998 [schmidt.py:249]
+2024-06-30 18:06:21,615 - my_logger - WARNING - Zero in Proyection of i: 12 over j: 13 W1s = -100.0 W2s = 100.0 b1 = -0.7499999999999998 b2 = -0.7299999999999998 [schmidt.py:249]
+2024-06-30 18:06:21,619 - my_logger - WARNING - Zero in Proyection of i: 13 over j: 14 W1s = -100.0 W2s = 100.0 b1 = -0.7299999999999998 b2 = -0.7099999999999997 [schmidt.py:249]
+2024-06-30 18:06:21,623 - my_logger - WARNING - Zero in Proyection of i: 14 over j: 15 W1s = -100.0 W2s = 100.0 b1 = -0.7099999999999997 b2 = -0.6899999999999997 [schmidt.py:249]
+2024-06-30 18:06:21,626 - my_logger - WARNING - Zero in Proyection of i: 15 over j: 16 W1s = -100.0 W2s = 100.0 b1 = -0.6899999999999997 b2 = -0.6699999999999997 [schmidt.py:249]
+2024-06-30 18:06:21,630 - my_logger - WARNING - Zero in Proyection of i: 16 over j: 17 W1s = -100.0 W2s = 100.0 b1 = -0.6699999999999997 b2 = -0.6499999999999997 [schmidt.py:249]
+2024-06-30 18:06:21,634 - my_logger - WARNING - Zero in Proyection of i: 17 over j: 18 W1s = -100.0 W2s = 100.0 b1 = -0.6499999999999997 b2 = -0.6299999999999997 [schmidt.py:249]
+2024-06-30 18:06:21,638 - my_logger - WARNING - Zero in Proyection of i: 18 over j: 19 W1s = -100.0 W2s = 100.0 b1 = -0.6299999999999997 b2 = -0.6099999999999997 [schmidt.py:249]
+2024-06-30 18:06:21,641 - my_logger - WARNING - Zero in Proyection of i: 19 over j: 20 W1s = -100.0 W2s = 100.0 b1 = -0.6099999999999997 b2 = -0.5899999999999996 [schmidt.py:249]
+2024-06-30 18:06:21,645 - my_logger - WARNING - Zero in Proyection of i: 20 over j: 21 W1s = -100.0 W2s = 100.0 b1 = -0.5899999999999996 b2 = -0.5699999999999996 [schmidt.py:249]
+2024-06-30 18:06:21,652 - my_logger - WARNING - Zero in Proyection of i: 22 over j: 23 W1s = -100.0 W2s = 100.0 b1 = -0.5499999999999996 b2 = -0.5299999999999996 [schmidt.py:249]
+2024-06-30 18:06:21,655 - my_logger - WARNING - Zero in Proyection of i: 23 over j: 24 W1s = -100.0 W2s = 100.0 b1 = -0.5299999999999996 b2 = -0.5099999999999996 [schmidt.py:249]
+2024-06-30 18:06:21,659 - my_logger - WARNING - Zero in Proyection of i: 24 over j: 25 W1s = -100.0 W2s = 100.0 b1 = -0.5099999999999996 b2 = -0.48999999999999955 [schmidt.py:249]
+2024-06-30 18:06:21,666 - my_logger - WARNING - Zero in Proyection of i: 26 over j: 27 W1s = -100.0 W2s = 100.0 b1 = -0.46999999999999953 b2 = -0.4499999999999995 [schmidt.py:249]
+2024-06-30 18:06:21,669 - my_logger - WARNING - Zero in Proyection of i: 27 over j: 28 W1s = -100.0 W2s = 100.0 b1 = -0.4499999999999995 b2 = -0.4299999999999995 [schmidt.py:249]
+2024-06-30 18:06:21,672 - my_logger - WARNING - Zero in Proyection of i: 28 over j: 29 W1s = -100.0 W2s = 100.0 b1 = -0.4299999999999995 b2 = -0.4099999999999995 [schmidt.py:249]
+2024-06-30 18:06:21,679 - my_logger - WARNING - Zero in Proyection of i: 30 over j: 31 W1s = -100.0 W2s = 100.0 b1 = -0.38999999999999946 b2 = -0.36999999999999944 [schmidt.py:249]
+2024-06-30 18:06:21,682 - my_logger - WARNING - Zero in Proyection of i: 31 over j: 32 W1s = -100.0 W2s = 100.0 b1 = -0.36999999999999944 b2 = -0.3499999999999994 [schmidt.py:249]
+2024-06-30 18:06:21,685 - my_logger - WARNING - Zero in Proyection of i: 32 over j: 33 W1s = -100.0 W2s = 100.0 b1 = -0.3499999999999994 b2 = -0.3299999999999994 [schmidt.py:249]
+2024-06-30 18:06:21,688 - my_logger - WARNING - Zero in Proyection of i: 33 over j: 34 W1s = -100.0 W2s = 100.0 b1 = -0.3299999999999994 b2 = -0.3099999999999994 [schmidt.py:249]
+2024-06-30 18:06:21,694 - my_logger - WARNING - Zero in Proyection of i: 35 over j: 36 W1s = -100.0 W2s = 100.0 b1 = -0.28999999999999937 b2 = -0.26999999999999935 [schmidt.py:249]
+2024-06-30 18:06:21,697 - my_logger - WARNING - Zero in Proyection of i: 36 over j: 37 W1s = -100.0 W2s = 100.0 b1 = -0.26999999999999935 b2 = -0.24999999999999936 [schmidt.py:249]
+2024-06-30 18:06:21,700 - my_logger - WARNING - Zero in Proyection of i: 37 over j: 38 W1s = -100.0 W2s = 100.0 b1 = -0.24999999999999936 b2 = -0.22999999999999937 [schmidt.py:249]
+2024-06-30 18:06:21,706 - my_logger - WARNING - Zero in Proyection of i: 39 over j: 40 W1s = -100.0 W2s = 100.0 b1 = -0.20999999999999938 b2 = -0.1899999999999994 [schmidt.py:249]
+2024-06-30 18:06:21,708 - my_logger - WARNING - Zero in Proyection of i: 40 over j: 41 W1s = -100.0 W2s = 100.0 b1 = -0.1899999999999994 b2 = -0.1699999999999994 [schmidt.py:249]
+2024-06-30 18:06:21,714 - my_logger - WARNING - Zero in Proyection of i: 42 over j: 43 W1s = -100.0 W2s = 100.0 b1 = -0.1499999999999994 b2 = -0.12999999999999942 [schmidt.py:249]
+2024-06-30 18:06:21,716 - my_logger - WARNING - Zero in Proyection of i: 43 over j: 44 W1s = -100.0 W2s = 100.0 b1 = -0.12999999999999942 b2 = -0.10999999999999942 [schmidt.py:249]
+2024-06-30 18:06:21,719 - my_logger - WARNING - Zero in Proyection of i: 44 over j: 45 W1s = -100.0 W2s = 100.0 b1 = -0.10999999999999942 b2 = -0.08999999999999941 [schmidt.py:249]
+2024-06-30 18:06:21,722 - my_logger - WARNING - Zero in Proyection of i: 45 over j: 46 W1s = -100.0 W2s = 100.0 b1 = -0.08999999999999941 b2 = -0.06999999999999941 [schmidt.py:249]
+2024-06-30 18:06:21,726 - my_logger - WARNING - Zero in Proyection of i: 47 over j: 48 W1s = -100.0 W2s = 100.0 b1 = -0.049999999999999406 b2 = -0.029999999999999406 [schmidt.py:249]
+2024-06-30 18:06:21,729 - my_logger - WARNING - Zero in Proyection of i: 48 over j: 49 W1s = -100.0 W2s = 100.0 b1 = -0.029999999999999406 b2 = -0.009999999999999405 [schmidt.py:249]
+2024-06-30 18:06:21,731 - my_logger - WARNING - Zero in Proyection of i: 49 over j: 50 W1s = -100.0 W2s = 100.0 b1 = -0.009999999999999405 b2 = 0.010000000000000595 [schmidt.py:249]
+2024-06-30 18:06:21,734 - my_logger - WARNING - Zero in Proyection of i: 50 over j: 51 W1s = -100.0 W2s = 100.0 b1 = 0.010000000000000595 b2 = 0.030000000000000596 [schmidt.py:249]
+2024-06-30 18:06:21,738 - my_logger - WARNING - Zero in Proyection of i: 52 over j: 53 W1s = -100.0 W2s = 100.0 b1 = 0.0500000000000006 b2 = 0.0700000000000006 [schmidt.py:249]
+2024-06-30 18:06:21,741 - my_logger - WARNING - Zero in Proyection of i: 53 over j: 54 W1s = -100.0 W2s = 100.0 b1 = 0.0700000000000006 b2 = 0.09000000000000061 [schmidt.py:249]
+2024-06-30 18:06:21,743 - my_logger - WARNING - Zero in Proyection of i: 54 over j: 55 W1s = -100.0 W2s = 100.0 b1 = 0.09000000000000061 b2 = 0.11000000000000061 [schmidt.py:249]
+2024-06-30 18:06:21,749 - my_logger - WARNING - Zero in Proyection of i: 57 over j: 58 W1s = -100.0 W2s = 100.0 b1 = 0.1500000000000006 b2 = 0.1700000000000006 [schmidt.py:249]
+2024-06-30 18:06:21,753 - my_logger - WARNING - Zero in Proyection of i: 59 over j: 60 W1s = -100.0 W2s = 100.0 b1 = 0.19000000000000059 b2 = 0.21000000000000058 [schmidt.py:249]
+2024-06-30 18:06:21,755 - my_logger - WARNING - Zero in Proyection of i: 60 over j: 61 W1s = -100.0 W2s = 100.0 b1 = 0.21000000000000058 b2 = 0.23000000000000057 [schmidt.py:249]
+2024-06-30 18:06:21,757 - my_logger - WARNING - Zero in Proyection of i: 61 over j: 62 W1s = -100.0 W2s = 100.0 b1 = 0.23000000000000057 b2 = 0.25000000000000056 [schmidt.py:249]
+2024-06-30 18:06:21,759 - my_logger - WARNING - Zero in Proyection of i: 62 over j: 63 W1s = -100.0 W2s = 100.0 b1 = 0.25000000000000056 b2 = 0.2700000000000006 [schmidt.py:249]
+2024-06-30 18:06:21,762 - my_logger - WARNING - Zero in Proyection of i: 64 over j: 65 W1s = -100.0 W2s = 100.0 b1 = 0.2900000000000006 b2 = 0.3100000000000006 [schmidt.py:249]
+2024-06-30 18:06:21,766 - my_logger - WARNING - Zero in Proyection of i: 66 over j: 67 W1s = -100.0 W2s = 100.0 b1 = 0.3300000000000006 b2 = 0.35000000000000064 [schmidt.py:249]
+2024-06-30 18:06:21,767 - my_logger - WARNING - Zero in Proyection of i: 67 over j: 68 W1s = -100.0 W2s = 100.0 b1 = 0.35000000000000064 b2 = 0.37000000000000066 [schmidt.py:249]
+2024-06-30 18:06:21,771 - my_logger - WARNING - Zero in Proyection of i: 69 over j: 70 W1s = -100.0 W2s = 100.0 b1 = 0.3900000000000007 b2 = 0.4100000000000007 [schmidt.py:249]
+2024-06-30 18:06:21,772 - my_logger - WARNING - Zero in Proyection of i: 70 over j: 71 W1s = -100.0 W2s = 100.0 b1 = 0.4100000000000007 b2 = 0.4300000000000007 [schmidt.py:249]
+2024-06-30 18:06:21,774 - my_logger - WARNING - Zero in Proyection of i: 71 over j: 72 W1s = -100.0 W2s = 100.0 b1 = 0.4300000000000007 b2 = 0.45000000000000073 [schmidt.py:249]
+2024-06-30 18:06:21,777 - my_logger - WARNING - Zero in Proyection of i: 73 over j: 74 W1s = -100.0 W2s = 100.0 b1 = 0.47000000000000075 b2 = 0.49000000000000077 [schmidt.py:249]
+2024-06-30 18:06:21,778 - my_logger - WARNING - Zero in Proyection of i: 74 over j: 75 W1s = -100.0 W2s = 100.0 b1 = 0.49000000000000077 b2 = 0.5100000000000008 [schmidt.py:249]
+2024-06-30 18:06:21,779 - my_logger - WARNING - Zero in Proyection of i: 75 over j: 76 W1s = -100.0 W2s = 100.0 b1 = 0.5100000000000008 b2 = 0.5300000000000008 [schmidt.py:249]
+2024-06-30 18:06:21,781 - my_logger - WARNING - Zero in Proyection of i: 77 over j: 78 W1s = -100.0 W2s = 100.0 b1 = 0.5500000000000008 b2 = 0.5700000000000008 [schmidt.py:249]
+2024-06-30 18:06:21,782 - my_logger - WARNING - Zero in Proyection of i: 78 over j: 79 W1s = -100.0 W2s = 100.0 b1 = 0.5700000000000008 b2 = 0.5900000000000009 [schmidt.py:249]
+2024-06-30 18:06:21,784 - my_logger - WARNING - Zero in Proyection of i: 79 over j: 80 W1s = -100.0 W2s = 100.0 b1 = 0.5900000000000009 b2 = 0.6100000000000009 [schmidt.py:249]
+2024-06-30 18:06:21,787 - my_logger - WARNING - Zero in Proyection of i: 83 over j: 84 W1s = -100.0 W2s = 100.0 b1 = 0.6700000000000009 b2 = 0.690000000000001 [schmidt.py:249]
+2024-06-30 18:06:21,788 - my_logger - WARNING - Zero in Proyection of i: 84 over j: 85 W1s = -100.0 W2s = 100.0 b1 = 0.690000000000001 b2 = 0.710000000000001 [schmidt.py:249]
+2024-06-30 18:06:21,789 - my_logger - WARNING - Zero in Proyection of i: 85 over j: 86 W1s = -100.0 W2s = 100.0 b1 = 0.710000000000001 b2 = 0.730000000000001 [schmidt.py:249]
+2024-06-30 18:06:21,790 - my_logger - WARNING - Zero in Proyection of i: 86 over j: 87 W1s = -100.0 W2s = 100.0 b1 = 0.730000000000001 b2 = 0.750000000000001 [schmidt.py:249]
+2024-06-30 18:06:21,791 - my_logger - WARNING - Zero in Proyection of i: 87 over j: 88 W1s = -100.0 W2s = 100.0 b1 = 0.750000000000001 b2 = 0.770000000000001 [schmidt.py:249]
+2024-06-30 18:06:21,792 - my_logger - WARNING - Zero in Proyection of i: 88 over j: 89 W1s = -100.0 W2s = 100.0 b1 = 0.770000000000001 b2 = 0.790000000000001 [schmidt.py:249]
+2024-06-30 18:06:21,792 - my_logger - WARNING - Zero in Proyection of i: 89 over j: 90 W1s = -100.0 W2s = 100.0 b1 = 0.790000000000001 b2 = 0.810000000000001 [schmidt.py:249]
+2024-06-30 18:06:21,794 - my_logger - WARNING - Zero in Proyection of i: 91 over j: 92 W1s = -100.0 W2s = 100.0 b1 = 0.8300000000000011 b2 = 0.8500000000000011 [schmidt.py:249]
+2024-06-30 18:06:21,794 - my_logger - WARNING - Zero in Proyection of i: 92 over j: 93 W1s = -100.0 W2s = 100.0 b1 = 0.8500000000000011 b2 = 0.8700000000000011 [schmidt.py:249]
+2024-06-30 18:06:21,795 - my_logger - WARNING - Zero in Proyection of i: 93 over j: 94 W1s = -100.0 W2s = 100.0 b1 = 0.8700000000000011 b2 = 0.8900000000000011 [schmidt.py:249]
+2024-06-30 18:06:21,795 - my_logger - WARNING - Zero in Proyection of i: 94 over j: 95 W1s = -100.0 W2s = 100.0 b1 = 0.8900000000000011 b2 = 0.9100000000000011 [schmidt.py:249]
+2024-06-30 18:06:21,796 - my_logger - WARNING - Zero in Proyection of i: 95 over j: 96 W1s = -100.0 W2s = 100.0 b1 = 0.9100000000000011 b2 = 0.9300000000000012 [schmidt.py:249]
+2024-06-30 18:06:21,796 - my_logger - WARNING - Zero in Proyection of i: 96 over j: 97 W1s = -100.0 W2s = 100.0 b1 = 0.9300000000000012 b2 = 0.9500000000000012 [schmidt.py:249]
+2024-06-30 18:06:21,797 - my_logger - WARNING - Zero in Proyection of i: 97 over j: 98 W1s = -100.0 W2s = 100.0 b1 = 0.9500000000000012 b2 = 0.9700000000000012 [schmidt.py:249]
+2024-06-30 18:06:21,959 - my_logger - WARNING - O2B PROYECTIONS: NAN ERROR [schmidt.py:295]
+2024-06-30 18:06:21,960 - my_logger - DEBUG - [[ 0.  0.  0. ...  0.  0.  0.]
+ [nan  0.  0. ...  0.  0.  0.]
+ [nan nan  0. ...  0.  0.  0.]
+ ...
+ [nan nan nan ...  0.  0.  0.]
+ [nan nan nan ... nan  0.  0.]
+ [nan nan nan ... nan nan  0.]] [schmidt.py:296]
+2024-06-30 18:06:21,961 - my_logger - WARNING - BETAS: NAN ERROR [schmidt.py:300]
+2024-06-30 18:06:21,962 - my_logger - WARNING - ---CORE TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 100 |     FAILED
+     error: setting an array element with a sequence.
+     traceback: TypeError: only length-1 arrays can be converted to Python scalars
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Diego\Desktop\GRAM\python\source\tests\basic_tests.py", line 77, in run_core_test
+    my_istar.evaluate_proyection(data_in, data_area, data_lab)
+  File "C:\Users\Diego\Desktop\GRAM\python\source\core\schmidt.py", line 166, in evaluate_proyection
+    proyections_f2b[i] += labels[d]*data_sum
+ValueError: setting an array element with a sequence.
+ [main.py:28]
+2024-06-30 18:06:53,443 - my_logger - INFO - ---BASIC TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 1 |     PASS
+     2. Data dimensions: 10, Base functions: 20 |     PASS
+ [main.py:19]
+2024-06-30 18:06:53,446 - my_logger - WARNING - Zero in Proyection of i: 0 over j: 1
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.99
+ b2 = -0.97 [schmidt.py:249]
+2024-06-30 18:06:53,451 - my_logger - WARNING - Zero in Proyection of i: 1 over j: 2
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.97
+ b2 = -0.95 [schmidt.py:249]
+2024-06-30 18:06:53,456 - my_logger - WARNING - Zero in Proyection of i: 2 over j: 3
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.95
+ b2 = -0.9299999999999999 [schmidt.py:249]
+2024-06-30 18:06:53,465 - my_logger - WARNING - Zero in Proyection of i: 4 over j: 5
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.9099999999999999
+ b2 = -0.8899999999999999 [schmidt.py:249]
+2024-06-30 18:06:53,469 - my_logger - WARNING - Zero in Proyection of i: 5 over j: 6
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.8899999999999999
+ b2 = -0.8699999999999999 [schmidt.py:249]
+2024-06-30 18:06:53,474 - my_logger - WARNING - Zero in Proyection of i: 6 over j: 7
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.8699999999999999
+ b2 = -0.8499999999999999 [schmidt.py:249]
+2024-06-30 18:06:53,478 - my_logger - WARNING - Zero in Proyection of i: 7 over j: 8
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.8499999999999999
+ b2 = -0.8299999999999998 [schmidt.py:249]
+2024-06-30 18:06:53,482 - my_logger - WARNING - Zero in Proyection of i: 8 over j: 9
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.8299999999999998
+ b2 = -0.8099999999999998 [schmidt.py:249]
+2024-06-30 18:06:53,486 - my_logger - WARNING - Zero in Proyection of i: 9 over j: 10
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.8099999999999998
+ b2 = -0.7899999999999998 [schmidt.py:249]
+2024-06-30 18:06:53,491 - my_logger - WARNING - Zero in Proyection of i: 10 over j: 11
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.7899999999999998
+ b2 = -0.7699999999999998 [schmidt.py:249]
+2024-06-30 18:06:53,498 - my_logger - WARNING - Zero in Proyection of i: 12 over j: 13
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.7499999999999998
+ b2 = -0.7299999999999998 [schmidt.py:249]
+2024-06-30 18:06:53,503 - my_logger - WARNING - Zero in Proyection of i: 13 over j: 14
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.7299999999999998
+ b2 = -0.7099999999999997 [schmidt.py:249]
+2024-06-30 18:06:53,507 - my_logger - WARNING - Zero in Proyection of i: 14 over j: 15
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.7099999999999997
+ b2 = -0.6899999999999997 [schmidt.py:249]
+2024-06-30 18:06:53,511 - my_logger - WARNING - Zero in Proyection of i: 15 over j: 16
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.6899999999999997
+ b2 = -0.6699999999999997 [schmidt.py:249]
+2024-06-30 18:06:53,515 - my_logger - WARNING - Zero in Proyection of i: 16 over j: 17
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.6699999999999997
+ b2 = -0.6499999999999997 [schmidt.py:249]
+2024-06-30 18:06:53,519 - my_logger - WARNING - Zero in Proyection of i: 17 over j: 18
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.6499999999999997
+ b2 = -0.6299999999999997 [schmidt.py:249]
+2024-06-30 18:06:53,523 - my_logger - WARNING - Zero in Proyection of i: 18 over j: 19
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.6299999999999997
+ b2 = -0.6099999999999997 [schmidt.py:249]
+2024-06-30 18:06:53,526 - my_logger - WARNING - Zero in Proyection of i: 19 over j: 20
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.6099999999999997
+ b2 = -0.5899999999999996 [schmidt.py:249]
+2024-06-30 18:06:53,530 - my_logger - WARNING - Zero in Proyection of i: 20 over j: 21
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.5899999999999996
+ b2 = -0.5699999999999996 [schmidt.py:249]
+2024-06-30 18:06:53,538 - my_logger - WARNING - Zero in Proyection of i: 22 over j: 23
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.5499999999999996
+ b2 = -0.5299999999999996 [schmidt.py:249]
+2024-06-30 18:06:53,542 - my_logger - WARNING - Zero in Proyection of i: 23 over j: 24
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.5299999999999996
+ b2 = -0.5099999999999996 [schmidt.py:249]
+2024-06-30 18:06:53,545 - my_logger - WARNING - Zero in Proyection of i: 24 over j: 25
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.5099999999999996
+ b2 = -0.48999999999999955 [schmidt.py:249]
+2024-06-30 18:06:53,552 - my_logger - WARNING - Zero in Proyection of i: 26 over j: 27
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.46999999999999953
+ b2 = -0.4499999999999995 [schmidt.py:249]
+2024-06-30 18:06:53,556 - my_logger - WARNING - Zero in Proyection of i: 27 over j: 28
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.4499999999999995
+ b2 = -0.4299999999999995 [schmidt.py:249]
+2024-06-30 18:06:53,560 - my_logger - WARNING - Zero in Proyection of i: 28 over j: 29
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.4299999999999995
+ b2 = -0.4099999999999995 [schmidt.py:249]
+2024-06-30 18:06:53,566 - my_logger - WARNING - Zero in Proyection of i: 30 over j: 31
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.38999999999999946
+ b2 = -0.36999999999999944 [schmidt.py:249]
+2024-06-30 18:06:53,570 - my_logger - WARNING - Zero in Proyection of i: 31 over j: 32
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.36999999999999944
+ b2 = -0.3499999999999994 [schmidt.py:249]
+2024-06-30 18:06:53,574 - my_logger - WARNING - Zero in Proyection of i: 32 over j: 33
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.3499999999999994
+ b2 = -0.3299999999999994 [schmidt.py:249]
+2024-06-30 18:06:53,577 - my_logger - WARNING - Zero in Proyection of i: 33 over j: 34
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.3299999999999994
+ b2 = -0.3099999999999994 [schmidt.py:249]
+2024-06-30 18:06:53,583 - my_logger - WARNING - Zero in Proyection of i: 35 over j: 36
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.28999999999999937
+ b2 = -0.26999999999999935 [schmidt.py:249]
+2024-06-30 18:06:53,586 - my_logger - WARNING - Zero in Proyection of i: 36 over j: 37
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.26999999999999935
+ b2 = -0.24999999999999936 [schmidt.py:249]
+2024-06-30 18:06:53,590 - my_logger - WARNING - Zero in Proyection of i: 37 over j: 38
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.24999999999999936
+ b2 = -0.22999999999999937 [schmidt.py:249]
+2024-06-30 18:06:53,595 - my_logger - WARNING - Zero in Proyection of i: 39 over j: 40
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.20999999999999938
+ b2 = -0.1899999999999994 [schmidt.py:249]
+2024-06-30 18:06:53,599 - my_logger - WARNING - Zero in Proyection of i: 40 over j: 41
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.1899999999999994
+ b2 = -0.1699999999999994 [schmidt.py:249]
+2024-06-30 18:06:53,604 - my_logger - WARNING - Zero in Proyection of i: 42 over j: 43
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.1499999999999994
+ b2 = -0.12999999999999942 [schmidt.py:249]
+2024-06-30 18:06:53,607 - my_logger - WARNING - Zero in Proyection of i: 43 over j: 44
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.12999999999999942
+ b2 = -0.10999999999999942 [schmidt.py:249]
+2024-06-30 18:06:53,610 - my_logger - WARNING - Zero in Proyection of i: 44 over j: 45
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.10999999999999942
+ b2 = -0.08999999999999941 [schmidt.py:249]
+2024-06-30 18:06:53,613 - my_logger - WARNING - Zero in Proyection of i: 45 over j: 46
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.08999999999999941
+ b2 = -0.06999999999999941 [schmidt.py:249]
+2024-06-30 18:06:53,618 - my_logger - WARNING - Zero in Proyection of i: 47 over j: 48
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.049999999999999406
+ b2 = -0.029999999999999406 [schmidt.py:249]
+2024-06-30 18:06:53,621 - my_logger - WARNING - Zero in Proyection of i: 48 over j: 49
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.029999999999999406
+ b2 = -0.009999999999999405 [schmidt.py:249]
+2024-06-30 18:06:53,623 - my_logger - WARNING - Zero in Proyection of i: 49 over j: 50
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.009999999999999405
+ b2 = 0.010000000000000595 [schmidt.py:249]
+2024-06-30 18:06:53,625 - my_logger - WARNING - Zero in Proyection of i: 50 over j: 51
+ W1s = -100.0
+ W2s = 100.0
+ b1 = 0.010000000000000595
+ b2 = 0.030000000000000596 [schmidt.py:249]
+2024-06-30 18:06:53,630 - my_logger - WARNING - Zero in Proyection of i: 52 over j: 53
+ W1s = -100.0
+ W2s = 100.0
+ b1 = 0.0500000000000006
+ b2 = 0.0700000000000006 [schmidt.py:249]
+2024-06-30 18:06:53,632 - my_logger - WARNING - Zero in Proyection of i: 53 over j: 54
+ W1s = -100.0
+ W2s = 100.0
+ b1 = 0.0700000000000006
+ b2 = 0.09000000000000061 [schmidt.py:249]
+2024-06-30 18:06:53,635 - my_logger - WARNING - Zero in Proyection of i: 54 over j: 55
+ W1s = -100.0
+ W2s = 100.0
+ b1 = 0.09000000000000061
+ b2 = 0.11000000000000061 [schmidt.py:249]
+2024-06-30 18:06:53,641 - my_logger - WARNING - Zero in Proyection of i: 57 over j: 58
+ W1s = -100.0
+ W2s = 100.0
+ b1 = 0.1500000000000006
+ b2 = 0.1700000000000006 [schmidt.py:249]
+2024-06-30 18:06:53,645 - my_logger - WARNING - Zero in Proyection of i: 59 over j: 60
+ W1s = -100.0
+ W2s = 100.0
+ b1 = 0.19000000000000059
+ b2 = 0.21000000000000058 [schmidt.py:249]
+2024-06-30 18:06:53,648 - my_logger - WARNING - Zero in Proyection of i: 60 over j: 61
+ W1s = -100.0
+ W2s = 100.0
+ b1 = 0.21000000000000058
+ b2 = 0.23000000000000057 [schmidt.py:249]
+2024-06-30 18:06:53,650 - my_logger - WARNING - Zero in Proyection of i: 61 over j: 62
+ W1s = -100.0
+ W2s = 100.0
+ b1 = 0.23000000000000057
+ b2 = 0.25000000000000056 [schmidt.py:249]
+2024-06-30 18:06:53,652 - my_logger - WARNING - Zero in Proyection of i: 62 over j: 63
+ W1s = -100.0
+ W2s = 100.0
+ b1 = 0.25000000000000056
+ b2 = 0.2700000000000006 [schmidt.py:249]
+2024-06-30 18:06:53,656 - my_logger - WARNING - Zero in Proyection of i: 64 over j: 65
+ W1s = -100.0
+ W2s = 100.0
+ b1 = 0.2900000000000006
+ b2 = 0.3100000000000006 [schmidt.py:249]
+2024-06-30 18:06:53,659 - my_logger - WARNING - Zero in Proyection of i: 66 over j: 67
+ W1s = -100.0
+ W2s = 100.0
+ b1 = 0.3300000000000006
+ b2 = 0.35000000000000064 [schmidt.py:249]
+2024-06-30 18:06:53,661 - my_logger - WARNING - Zero in Proyection of i: 67 over j: 68
+ W1s = -100.0
+ W2s = 100.0
+ b1 = 0.35000000000000064
+ b2 = 0.37000000000000066 [schmidt.py:249]
+2024-06-30 18:06:53,664 - my_logger - WARNING - Zero in Proyection of i: 69 over j: 70
+ W1s = -100.0
+ W2s = 100.0
+ b1 = 0.3900000000000007
+ b2 = 0.4100000000000007 [schmidt.py:249]
+2024-06-30 18:06:53,666 - my_logger - WARNING - Zero in Proyection of i: 70 over j: 71
+ W1s = -100.0
+ W2s = 100.0
+ b1 = 0.4100000000000007
+ b2 = 0.4300000000000007 [schmidt.py:249]
+2024-06-30 18:06:53,668 - my_logger - WARNING - Zero in Proyection of i: 71 over j: 72
+ W1s = -100.0
+ W2s = 100.0
+ b1 = 0.4300000000000007
+ b2 = 0.45000000000000073 [schmidt.py:249]
+2024-06-30 18:06:53,671 - my_logger - WARNING - Zero in Proyection of i: 73 over j: 74
+ W1s = -100.0
+ W2s = 100.0
+ b1 = 0.47000000000000075
+ b2 = 0.49000000000000077 [schmidt.py:249]
+2024-06-30 18:06:53,672 - my_logger - WARNING - Zero in Proyection of i: 74 over j: 75
+ W1s = -100.0
+ W2s = 100.0
+ b1 = 0.49000000000000077
+ b2 = 0.5100000000000008 [schmidt.py:249]
+2024-06-30 18:06:53,674 - my_logger - WARNING - Zero in Proyection of i: 75 over j: 76
+ W1s = -100.0
+ W2s = 100.0
+ b1 = 0.5100000000000008
+ b2 = 0.5300000000000008 [schmidt.py:249]
+2024-06-30 18:06:53,676 - my_logger - WARNING - Zero in Proyection of i: 77 over j: 78
+ W1s = -100.0
+ W2s = 100.0
+ b1 = 0.5500000000000008
+ b2 = 0.5700000000000008 [schmidt.py:249]
+2024-06-30 18:06:53,678 - my_logger - WARNING - Zero in Proyection of i: 78 over j: 79
+ W1s = -100.0
+ W2s = 100.0
+ b1 = 0.5700000000000008
+ b2 = 0.5900000000000009 [schmidt.py:249]
+2024-06-30 18:06:53,679 - my_logger - WARNING - Zero in Proyection of i: 79 over j: 80
+ W1s = -100.0
+ W2s = 100.0
+ b1 = 0.5900000000000009
+ b2 = 0.6100000000000009 [schmidt.py:249]
+2024-06-30 18:06:53,682 - my_logger - WARNING - Zero in Proyection of i: 83 over j: 84
+ W1s = -100.0
+ W2s = 100.0
+ b1 = 0.6700000000000009
+ b2 = 0.690000000000001 [schmidt.py:249]
+2024-06-30 18:06:53,684 - my_logger - WARNING - Zero in Proyection of i: 84 over j: 85
+ W1s = -100.0
+ W2s = 100.0
+ b1 = 0.690000000000001
+ b2 = 0.710000000000001 [schmidt.py:249]
+2024-06-30 18:06:53,685 - my_logger - WARNING - Zero in Proyection of i: 85 over j: 86
+ W1s = -100.0
+ W2s = 100.0
+ b1 = 0.710000000000001
+ b2 = 0.730000000000001 [schmidt.py:249]
+2024-06-30 18:06:53,686 - my_logger - WARNING - Zero in Proyection of i: 86 over j: 87
+ W1s = -100.0
+ W2s = 100.0
+ b1 = 0.730000000000001
+ b2 = 0.750000000000001 [schmidt.py:249]
+2024-06-30 18:06:53,687 - my_logger - WARNING - Zero in Proyection of i: 87 over j: 88
+ W1s = -100.0
+ W2s = 100.0
+ b1 = 0.750000000000001
+ b2 = 0.770000000000001 [schmidt.py:249]
+2024-06-30 18:06:53,688 - my_logger - WARNING - Zero in Proyection of i: 88 over j: 89
+ W1s = -100.0
+ W2s = 100.0
+ b1 = 0.770000000000001
+ b2 = 0.790000000000001 [schmidt.py:249]
+2024-06-30 18:06:53,688 - my_logger - WARNING - Zero in Proyection of i: 89 over j: 90
+ W1s = -100.0
+ W2s = 100.0
+ b1 = 0.790000000000001
+ b2 = 0.810000000000001 [schmidt.py:249]
+2024-06-30 18:06:53,690 - my_logger - WARNING - Zero in Proyection of i: 91 over j: 92
+ W1s = -100.0
+ W2s = 100.0
+ b1 = 0.8300000000000011
+ b2 = 0.8500000000000011 [schmidt.py:249]
+2024-06-30 18:06:53,691 - my_logger - WARNING - Zero in Proyection of i: 92 over j: 93
+ W1s = -100.0
+ W2s = 100.0
+ b1 = 0.8500000000000011
+ b2 = 0.8700000000000011 [schmidt.py:249]
+2024-06-30 18:06:53,691 - my_logger - WARNING - Zero in Proyection of i: 93 over j: 94
+ W1s = -100.0
+ W2s = 100.0
+ b1 = 0.8700000000000011
+ b2 = 0.8900000000000011 [schmidt.py:249]
+2024-06-30 18:06:53,692 - my_logger - WARNING - Zero in Proyection of i: 94 over j: 95
+ W1s = -100.0
+ W2s = 100.0
+ b1 = 0.8900000000000011
+ b2 = 0.9100000000000011 [schmidt.py:249]
+2024-06-30 18:06:53,693 - my_logger - WARNING - Zero in Proyection of i: 95 over j: 96
+ W1s = -100.0
+ W2s = 100.0
+ b1 = 0.9100000000000011
+ b2 = 0.9300000000000012 [schmidt.py:249]
+2024-06-30 18:06:53,693 - my_logger - WARNING - Zero in Proyection of i: 96 over j: 97
+ W1s = -100.0
+ W2s = 100.0
+ b1 = 0.9300000000000012
+ b2 = 0.9500000000000012 [schmidt.py:249]
+2024-06-30 18:06:53,694 - my_logger - WARNING - Zero in Proyection of i: 97 over j: 98
+ W1s = -100.0
+ W2s = 100.0
+ b1 = 0.9500000000000012
+ b2 = 0.9700000000000012 [schmidt.py:249]
+2024-06-30 18:06:53,856 - my_logger - WARNING - O2B PROYECTIONS: NAN ERROR [schmidt.py:295]
+2024-06-30 18:06:53,856 - my_logger - DEBUG - [[ 0.  0.  0. ...  0.  0.  0.]
+ [nan  0.  0. ...  0.  0.  0.]
+ [nan nan  0. ...  0.  0.  0.]
+ ...
+ [nan nan nan ...  0.  0.  0.]
+ [nan nan nan ... nan  0.  0.]
+ [nan nan nan ... nan nan  0.]] [schmidt.py:296]
+2024-06-30 18:06:53,858 - my_logger - WARNING - BETAS: NAN ERROR [schmidt.py:300]
+2024-06-30 18:06:53,859 - my_logger - WARNING - ---CORE TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 100 |     FAILED
+     error: setting an array element with a sequence.
+     traceback: TypeError: only length-1 arrays can be converted to Python scalars
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Diego\Desktop\GRAM\python\source\tests\basic_tests.py", line 77, in run_core_test
+    my_istar.evaluate_proyection(data_in, data_area, data_lab)
+  File "C:\Users\Diego\Desktop\GRAM\python\source\core\schmidt.py", line 166, in evaluate_proyection
+    proyections_f2b[i] += labels[d]*data_sum
+ValueError: setting an array element with a sequence.
+ [main.py:28]
+2024-06-30 18:08:04,311 - my_logger - INFO - ---BASIC TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 1 |     PASS
+     2. Data dimensions: 10, Base functions: 20 |     PASS
+ [main.py:19]
+2024-06-30 18:10:55,241 - my_logger - WARNING - Zero in Proyection of i: 0 over j: 1
+ W1s = -100.0
+ W2s = 100.0
+ b1 = -0.99
+ b2 = -0.97 [schmidt.py:249]
+2024-06-30 18:14:06,213 - my_logger - INFO - ---BASIC TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 1 |     PASS
+     2. Data dimensions: 10, Base functions: 20 |     PASS
+ [main.py:19]
+2024-06-30 18:14:06,591 - my_logger - WARNING - O2B PROYECTIONS: NAN ERROR [schmidt.py:295]
+2024-06-30 18:14:06,592 - my_logger - DEBUG - [[ 0.  0.  0. ...  0.  0.  0.]
+ [nan  0.  0. ...  0.  0.  0.]
+ [nan nan  0. ...  0.  0.  0.]
+ ...
+ [nan nan nan ...  0.  0.  0.]
+ [nan nan nan ... nan  0.  0.]
+ [nan nan nan ... nan nan  0.]] [schmidt.py:296]
+2024-06-30 18:14:06,593 - my_logger - WARNING - BETAS: NAN ERROR [schmidt.py:300]
+2024-06-30 18:14:06,593 - my_logger - WARNING - ---CORE TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 100 |     FAILED
+     error: setting an array element with a sequence.
+     traceback: TypeError: only length-1 arrays can be converted to Python scalars
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Diego\Desktop\GRAM\python\source\tests\basic_tests.py", line 77, in run_core_test
+    my_istar.evaluate_proyection(data_in, data_area, data_lab)
+  File "C:\Users\Diego\Desktop\GRAM\python\source\core\schmidt.py", line 166, in evaluate_proyection
+    proyections_f2b[i] += labels[d]*data_sum
+ValueError: setting an array element with a sequence.
+ [main.py:28]
+2024-06-30 18:15:37,826 - my_logger - INFO - ---BASIC TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 1 |     PASS
+     2. Data dimensions: 10, Base functions: 20 |     PASS
+ [main.py:19]
+2024-06-30 18:17:45,589 - my_logger - INFO - ---BASIC TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 1 |     PASS
+     2. Data dimensions: 10, Base functions: 20 |     PASS
+ [main.py:19]
+2024-06-30 18:27:35,757 - my_logger - INFO - ---BASIC TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 1 |     PASS
+     2. Data dimensions: 10, Base functions: 20 |     PASS
+ [main.py:19]
+2024-06-30 18:27:36,131 - my_logger - WARNING - ---CORE TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 100 |     FAILED
+     error: setting an array element with a sequence.
+     traceback: TypeError: only length-1 arrays can be converted to Python scalars
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Diego\Desktop\GRAM\python\source\tests\basic_tests.py", line 77, in run_core_test
+    my_istar.evaluate_proyection(data_in, data_area, data_lab)
+  File "C:\Users\Diego\Desktop\GRAM\python\source\core\schmidt.py", line 166, in evaluate_proyection
+    proyections_f2b[i] += labels[d]*data_sum
+ValueError: setting an array element with a sequence.
+ [main.py:28]
+2024-06-30 18:28:35,684 - my_logger - INFO - ---BASIC TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 1 |     PASS
+     2. Data dimensions: 10, Base functions: 20 |     PASS
+ [main.py:19]
+2024-06-30 18:30:58,849 - my_logger - INFO - ---BASIC TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 1 |     PASS
+     2. Data dimensions: 10, Base functions: 20 |     PASS
+ [main.py:19]
+2024-06-30 18:31:00,650 - my_logger - WARNING - ---CORE TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 100 |     FAILED
+     error: local variable 'n_data' referenced before assignment
+     traceback: Traceback (most recent call last):
+  File "C:\Users\Diego\Desktop\GRAM\python\source\tests\basic_tests.py", line 78, in run_core_test
+    output = my_istar.run(data_in)
+  File "C:\Users\Diego\Desktop\GRAM\python\source\core\schmidt.py", line 196, in run
+    network_output = np.zeros(n_data)
+UnboundLocalError: local variable 'n_data' referenced before assignment
+ [main.py:28]
+2024-06-30 18:32:15,964 - my_logger - INFO - ---BASIC TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 1 |     PASS
+     2. Data dimensions: 10, Base functions: 20 |     PASS
+ [main.py:19]
+2024-06-30 18:32:18,064 - my_logger - INFO - ---CORE TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 100 |     PASS
+        score (less is better) = 
+ [main.py:26]
+2024-06-30 18:32:59,611 - my_logger - INFO - ---BASIC TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 1 |     PASS
+     2. Data dimensions: 10, Base functions: 20 |     PASS
+ [main.py:19]
+2024-06-30 18:33:01,717 - my_logger - INFO - ---CORE TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 100 |     PASS
+        score (less is better) = 1.5405225546842807
+ [main.py:26]
+2024-06-30 18:37:03,969 - my_logger - INFO - ---BASIC TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 1 |     PASS
+     2. Data dimensions: 10, Base functions: 20 |     PASS
+ [main.py:19]
+2024-06-30 18:37:06,130 - my_logger - INFO - ---CORE TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 100 |     PASS
+        score (less is better) = 5224.75361064777
+ [main.py:26]
+2024-06-30 18:38:51,507 - my_logger - INFO - ---BASIC TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 1 |     PASS
+     2. Data dimensions: 10, Base functions: 20 |     PASS
+ [main.py:19]
+2024-06-30 18:38:53,623 - my_logger - INFO - ---CORE TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 100 |     PASS
+        score (less is better) = 634.9726552136549
+ [main.py:26]
+2024-06-30 18:42:43,274 - my_logger - INFO - ---BASIC TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 1 |     PASS
+     2. Data dimensions: 10, Base functions: 20 |     PASS
+ [main.py:19]
+2024-06-30 18:53:37,377 - my_logger - INFO - ---BASIC TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 1 |     PASS
+     2. Data dimensions: 10, Base functions: 20 |     PASS
+ [main.py:19]
+2024-06-30 18:53:39,434 - my_logger - INFO - ---CORE TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 100 |     PASS
+        score (less is better) = 1.613185178507015
+ [main.py:26]
+2024-06-30 18:54:14,284 - my_logger - INFO - ---BASIC TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 1 |     PASS
+     2. Data dimensions: 10, Base functions: 20 |     PASS
+ [main.py:19]
+2024-06-30 18:54:16,386 - my_logger - INFO - ---CORE TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 100 |     PASS
+        score (less is better) = 4.8116059022960185
+ [main.py:26]
+2024-06-30 18:54:37,330 - my_logger - INFO - ---BASIC TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 1 |     PASS
+     2. Data dimensions: 10, Base functions: 20 |     PASS
+ [main.py:19]
+2024-06-30 18:54:39,419 - my_logger - INFO - ---CORE TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 100 |     PASS
+        score (less is better) = 1.613185178507015
+ [main.py:26]
+2024-06-30 19:07:25,425 - my_logger - INFO - ---BASIC TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 1 |     PASS
+     2. Data dimensions: 10, Base functions: 20 |     PASS
+
+
+ [main.py:19]
+2024-06-30 19:07:27,420 - my_logger - INFO - ---CORE TEST RESULTS---
+
+     1. Bias lineal initialization, Base functions: 100 |     PASS
+        score (less is better) = 1.613185178507015/1.613
+
+
+ [main.py:26]
+2024-06-30 19:07:29,933 - my_logger - WARNING - O2B PROYECTIONS: NAN ERROR [schmidt.py:296]
+2024-06-30 19:07:29,934 - my_logger - DEBUG - [[0.         0.         0.         ... 0.         0.         0.        ]
+ [1.4076725  0.         0.         ... 0.         0.         0.        ]
+ [1.40886383        nan 0.         ... 0.         0.         0.        ]
+ ...
+ [1.40884602        nan        nan ... 0.         0.         0.        ]
+ [1.40873825        nan        nan ...        nan 0.         0.        ]
+ [1.41048167        nan        nan ...        nan        nan 0.        ]] [schmidt.py:297]
+2024-06-30 19:07:29,936 - my_logger - WARNING - BETAS: NAN ERROR [schmidt.py:301]
+2024-06-30 19:07:31,291 - my_logger - WARNING - F2O PROYECTIONS: NAN ERROR [schmidt.py:176]
+2024-06-30 19:07:31,295 - my_logger - WARNING - SIGMAS: NAN ERROR [schmidt.py:184]
+2024-06-30 19:07:31,984 - my_logger - WARNING - O2B PROYECTIONS: NAN ERROR [schmidt.py:296]
+2024-06-30 19:07:31,985 - my_logger - DEBUG - [[ 0.00000000e+00  0.00000000e+00  0.00000000e+00 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [ 1.40938145e+00  0.00000000e+00  0.00000000e+00 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [ 1.41011830e+00 -1.53857310e-03  0.00000000e+00 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ ...
+ [ 1.40974639e+00 -1.66459261e-03  2.44117051e-03 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [ 1.40938179e+00  4.09494936e-03  3.70183167e-04 ...             nan
+   0.00000000e+00  0.00000000e+00]
+ [ 1.41232707e+00  6.92006482e-04  6.13022092e-04 ...             nan
+              nan  0.00000000e+00]] [schmidt.py:297]
+2024-06-30 19:07:31,986 - my_logger - WARNING - BETAS: NAN ERROR [schmidt.py:301]
+2024-06-30 19:07:33,308 - my_logger - WARNING - F2O PROYECTIONS: NAN ERROR [schmidt.py:176]
+2024-06-30 19:07:33,312 - my_logger - WARNING - SIGMAS: NAN ERROR [schmidt.py:184]
+2024-06-30 19:07:33,618 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 100 |     PASS
+        score (less is better) = 1.7816480792579077/1.613
+     2. Weights data distribution initialization, Base functions: 100 |     PASS
+        score (less is better) = nan/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 100 |     PASS
+        score (less is better) = nan/1.613
+
+
+ [main.py:33]
+2024-06-30 19:08:49,317 - my_logger - INFO - ---BASIC TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 1 |     PASS
+     2. Data dimensions: 10, Base functions: 20 |     PASS
+
+
+ [main.py:19]
+2024-06-30 19:08:51,328 - my_logger - INFO - ---CORE TEST RESULTS---
+
+     1. Bias lineal initialization, Base functions: 100 |     PASS
+        score (less is better) = 1.613185178507015/1.613
+
+
+ [main.py:26]
+2024-06-30 19:08:53,541 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 40 |     PASS
+        score (less is better) = 6.2908710483849815/1.613
+     2. Weights data distribution initialization, Base functions: 100 |     PASS
+        score (less is better) = 0.4070735690059511/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 100 |     PASS
+        score (less is better) = 0.38875592164979295/1.613
+
+
+ [main.py:33]
+2024-06-30 19:16:30,383 - my_logger - INFO - ---BASIC TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 1 |     PASS
+     2. Data dimensions: 10, Base functions: 20 |     PASS
+
+
+ [main.py:19]
+2024-06-30 19:16:32,440 - my_logger - INFO - ---CORE TEST RESULTS---
+
+     1. Bias lineal initialization, Base functions: 100 |     PASS
+        score (less is better) = 1.613185178507015/1.613
+
+
+ [main.py:26]
+2024-06-30 19:18:19,196 - my_logger - INFO - ---BASIC TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 1 |     PASS
+     2. Data dimensions: 10, Base functions: 20 |     PASS
+
+
+ [main.py:19]
+2024-06-30 19:18:21,193 - my_logger - INFO - ---CORE TEST RESULTS---
+
+     1. Bias lineal initialization, Base functions: 100 |     PASS
+        score (less is better) = 1.613185178507015/1.613
+
+
+ [main.py:26]
+2024-06-30 19:18:21,565 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 5 |     PASS
+        score (less is better) = 24.58959273582787/1.613
+     2. Weights data distribution initialization, Base functions: 5 |     PASS
+        score (less is better) = 27.370618649451366/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 5 |     PASS
+        score (less is better) = 27.39594431967988/1.613
+
+
+ [main.py:34]
+2024-06-30 19:18:22,137 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 10 |     PASS
+        score (less is better) = 21.10794407218955/1.613
+     2. Weights data distribution initialization, Base functions: 10 |     PASS
+        score (less is better) = 9.486980422973556/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 10 |     PASS
+        score (less is better) = 9.441793251693857/1.613
+
+
+ [main.py:34]
+2024-06-30 19:18:22,972 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 15 |     PASS
+        score (less is better) = 16.511800291838146/1.613
+     2. Weights data distribution initialization, Base functions: 15 |     PASS
+        score (less is better) = 3.4123391857468537/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 15 |     PASS
+        score (less is better) = 3.82209301366719/1.613
+
+
+ [main.py:34]
+2024-06-30 19:18:24,042 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 20 |     PASS
+        score (less is better) = 12.818134193646147/1.613
+     2. Weights data distribution initialization, Base functions: 20 |     PASS
+        score (less is better) = 1.7913361054661343/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 20 |     PASS
+        score (less is better) = 1.7197506289590918/1.613
+
+
+ [main.py:34]
+2024-06-30 19:18:25,378 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 25 |     PASS
+        score (less is better) = 10.443925042804612/1.613
+     2. Weights data distribution initialization, Base functions: 25 |     PASS
+        score (less is better) = 1.107790481897545/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 25 |     PASS
+        score (less is better) = 1.3134466392315467/1.613
+
+
+ [main.py:34]
+2024-06-30 19:18:27,018 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 30 |     PASS
+        score (less is better) = 8.831066399981522/1.613
+     2. Weights data distribution initialization, Base functions: 30 |     PASS
+        score (less is better) = 0.7385216601690491/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 30 |     PASS
+        score (less is better) = 0.9321454630408201/1.613
+
+
+ [main.py:34]
+2024-06-30 19:18:28,869 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 35 |     PASS
+        score (less is better) = 7.22108958545488/1.613
+     2. Weights data distribution initialization, Base functions: 35 |     PASS
+        score (less is better) = 0.5322586239036533/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 35 |     PASS
+        score (less is better) = 0.5535532547861729/1.613
+
+
+ [main.py:34]
+2024-06-30 19:18:31,005 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 40 |     PASS
+        score (less is better) = 6.2908710483849815/1.613
+     2. Weights data distribution initialization, Base functions: 40 |     PASS
+        score (less is better) = 0.4070735690059511/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 40 |     PASS
+        score (less is better) = 0.38875592164979295/1.613
+
+
+ [main.py:34]
+2024-06-30 19:18:33,458 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 45 |     PASS
+        score (less is better) = 5.3912742614018025/1.613
+     2. Weights data distribution initialization, Base functions: 45 |     PASS
+        score (less is better) = 0.3169222952896264/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 45 |     PASS
+        score (less is better) = 0.3406995829573415/1.613
+
+
+ [main.py:34]
+2024-06-30 19:18:36,230 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 50 |     PASS
+        score (less is better) = 4.590561320409099/1.613
+     2. Weights data distribution initialization, Base functions: 50 |     PASS
+        score (less is better) = 0.31199575231572646/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 50 |     PASS
+        score (less is better) = 0.28216096035114396/1.613
+
+
+ [main.py:34]
+2024-06-30 19:18:39,361 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 55 |     PASS
+        score (less is better) = 4.24793394610764/1.613
+     2. Weights data distribution initialization, Base functions: 55 |     PASS
+        score (less is better) = 0.24408390410645453/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 55 |     PASS
+        score (less is better) = 0.26322740974902203/1.613
+
+
+ [main.py:34]
+2024-06-30 19:18:42,666 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 60 |     PASS
+        score (less is better) = 3.7658739563321832/1.613
+     2. Weights data distribution initialization, Base functions: 60 |     PASS
+        score (less is better) = 0.2300029810239864/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 60 |     PASS
+        score (less is better) = 0.24538304891465135/1.613
+
+
+ [main.py:34]
+2024-06-30 19:18:46,291 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 65 |     PASS
+        score (less is better) = 3.3336910071089165/1.613
+     2. Weights data distribution initialization, Base functions: 65 |     PASS
+        score (less is better) = 0.46061782488120834/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 65 |     PASS
+        score (less is better) = 0.27833256329607453/1.613
+
+
+ [main.py:34]
+2024-06-30 19:18:47,789 - my_logger - WARNING - O2B PROYECTIONS: NAN ERROR [schmidt.py:296]
+2024-06-30 19:18:47,789 - my_logger - DEBUG - [[ 0.00000000e+00  0.00000000e+00  0.00000000e+00 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [ 1.40086119e+00  0.00000000e+00  0.00000000e+00 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [ 1.40380042e+00 -7.34604211e-04  0.00000000e+00 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ ...
+ [ 1.40789376e+00 -1.09641202e-02  1.02430673e-03 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [ 1.40771255e+00 -1.09807528e-02  1.02257956e-03 ...             nan
+   0.00000000e+00  0.00000000e+00]
+ [ 1.40587168e+00 -1.19343053e-02  1.10799993e-03 ...             nan
+              nan  0.00000000e+00]] [schmidt.py:297]
+2024-06-30 19:18:47,791 - my_logger - WARNING - BETAS: NAN ERROR [schmidt.py:301]
+2024-06-30 19:18:48,704 - my_logger - WARNING - F2O PROYECTIONS: NAN ERROR [schmidt.py:176]
+2024-06-30 19:18:48,706 - my_logger - WARNING - SIGMAS: NAN ERROR [schmidt.py:184]
+2024-06-30 19:18:49,104 - my_logger - WARNING - O2B PROYECTIONS: NAN ERROR [schmidt.py:296]
+2024-06-30 19:18:49,104 - my_logger - DEBUG - [[ 0.00000000e+00  0.00000000e+00  0.00000000e+00 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [ 1.40414377e+00  0.00000000e+00  0.00000000e+00 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [ 1.40604399e+00 -3.39453461e-03  0.00000000e+00 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ ...
+ [ 1.41073861e+00  2.52762370e-03  1.02961854e-03 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [ 1.41060354e+00  1.62698508e-04  1.87147409e-03 ...             nan
+   0.00000000e+00  0.00000000e+00]
+ [ 1.40996284e+00  1.97315127e-03  5.96049429e-04 ...             nan
+              nan  0.00000000e+00]] [schmidt.py:297]
+2024-06-30 19:18:49,106 - my_logger - WARNING - BETAS: NAN ERROR [schmidt.py:301]
+2024-06-30 19:18:50,022 - my_logger - WARNING - F2O PROYECTIONS: NAN ERROR [schmidt.py:176]
+2024-06-30 19:18:50,024 - my_logger - WARNING - SIGMAS: NAN ERROR [schmidt.py:184]
+2024-06-30 19:18:50,235 - my_logger - WARNING - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 70 |     PASS
+        score (less is better) = 3.039502901554673/1.613
+     2. Weights data distribution initialization, Base functions: 70 |     FAILED
+     error: NAN error
+     traceback: Traceback (most recent call last):
+  File "C:\Users\Diego\Desktop\GRAM\python\source\tests\basic_tests.py", line 152, in run_distribution_test
+    raise ValueError("NAN error")
+ValueError: NAN error
+
+     3. Bias & Weights data distribution initialization, Base functions: 70 |     FAILED
+     error: NAN error
+     traceback: Traceback (most recent call last):
+  File "C:\Users\Diego\Desktop\GRAM\python\source\tests\basic_tests.py", line 177, in run_distribution_test
+    raise ValueError("NAN error")
+ValueError: NAN error
+
+
+ [main.py:36]
+2024-06-30 19:28:32,865 - my_logger - INFO - ---BASIC TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 1 |     ------------------------------------------------PASS
+     2. Data dimensions: 10, Base functions: 20 |     ------------------------------------------------PASS
+
+
+ [main.py:19]
+2024-06-30 19:28:34,833 - my_logger - INFO - ---CORE TEST RESULTS---
+
+     1. Bias lineal initialization, Base functions: 100 |     --------------------------------------PASS
+        score (less is better) = 1.613185178507015/1.613
+
+
+ [main.py:26]
+2024-06-30 19:28:35,206 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 5 |     -----------------------------PASS
+        score (less is better) = 24.58959273582787/1.613
+     2. Weights data distribution initialization, Base functions: 5 |     --------------------------PASS
+        score (less is better) = 27.370618649451366/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 5 |     -------------------PASS
+        score (less is better) = 27.39594431967988/1.613
+
+
+ [main.py:34]
+2024-06-30 19:28:35,765 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 10 |     ----------------------------PASS
+        score (less is better) = 21.10794407218955/1.613
+     2. Weights data distribution initialization, Base functions: 10 |     -------------------------PASS
+        score (less is better) = 9.486980422973556/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 10 |     ------------------PASS
+        score (less is better) = 9.441793251693857/1.613
+
+
+ [main.py:34]
+2024-06-30 19:28:36,590 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 15 |     ----------------------------PASS
+        score (less is better) = 16.511800291838146/1.613
+     2. Weights data distribution initialization, Base functions: 15 |     -------------------------PASS
+        score (less is better) = 3.4123391857468537/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 15 |     ------------------PASS
+        score (less is better) = 3.82209301366719/1.613
+
+
+ [main.py:34]
+2024-06-30 19:28:37,656 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 20 |     ----------------------------PASS
+        score (less is better) = 12.818134193646147/1.613
+     2. Weights data distribution initialization, Base functions: 20 |     -------------------------PASS
+        score (less is better) = 1.7913361054661343/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 20 |     ------------------PASS
+        score (less is better) = 1.7197506289590918/1.613
+
+
+ [main.py:34]
+2024-06-30 19:28:38,993 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 25 |     ----------------------------PASS
+        score (less is better) = 10.443925042804612/1.613
+     2. Weights data distribution initialization, Base functions: 25 |     -------------------------PASS
+        score (less is better) = 1.107790481897545/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 25 |     ------------------PASS
+        score (less is better) = 1.3134466392315467/1.613
+
+
+ [main.py:34]
+2024-06-30 19:28:40,604 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 30 |     ----------------------------PASS
+        score (less is better) = 8.831066399981522/1.613
+     2. Weights data distribution initialization, Base functions: 30 |     -------------------------PASS
+        score (less is better) = 0.7385216601690491/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 30 |     ------------------PASS
+        score (less is better) = 0.9321454630408201/1.613
+
+
+ [main.py:34]
+2024-06-30 19:28:42,443 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 35 |     ----------------------------PASS
+        score (less is better) = 7.22108958545488/1.613
+     2. Weights data distribution initialization, Base functions: 35 |     -------------------------PASS
+        score (less is better) = 0.5322586239036533/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 35 |     ------------------PASS
+        score (less is better) = 0.5535532547861729/1.613
+
+
+ [main.py:34]
+2024-06-30 19:28:44,656 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 40 |     ----------------------------PASS
+        score (less is better) = 6.2908710483849815/1.613
+     2. Weights data distribution initialization, Base functions: 40 |     -------------------------PASS
+        score (less is better) = 0.4070735690059511/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 40 |     ------------------PASS
+        score (less is better) = 0.38875592164979295/1.613
+
+
+ [main.py:34]
+2024-06-30 19:28:47,096 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 45 |     ----------------------------PASS
+        score (less is better) = 5.3912742614018025/1.613
+     2. Weights data distribution initialization, Base functions: 45 |     -------------------------PASS
+        score (less is better) = 0.3169222952896264/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 45 |     ------------------PASS
+        score (less is better) = 0.3406995829573415/1.613
+
+
+ [main.py:34]
+2024-06-30 19:28:49,917 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 50 |     ----------------------------PASS
+        score (less is better) = 4.590561320409099/1.613
+     2. Weights data distribution initialization, Base functions: 50 |     -------------------------PASS
+        score (less is better) = 0.31199575231572646/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 50 |     ------------------PASS
+        score (less is better) = 0.28216096035114396/1.613
+
+
+ [main.py:34]
+2024-06-30 19:28:52,964 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 55 |     ----------------------------PASS
+        score (less is better) = 4.24793394610764/1.613
+     2. Weights data distribution initialization, Base functions: 55 |     -------------------------PASS
+        score (less is better) = 0.24408390410645453/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 55 |     ------------------PASS
+        score (less is better) = 0.26322740974902203/1.613
+
+
+ [main.py:34]
+2024-06-30 19:28:56,271 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 60 |     ----------------------------PASS
+        score (less is better) = 3.7658739563321832/1.613
+     2. Weights data distribution initialization, Base functions: 60 |     -------------------------PASS
+        score (less is better) = 0.2300029810239864/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 60 |     ------------------PASS
+        score (less is better) = 0.24538304891465135/1.613
+
+
+ [main.py:34]
+2024-06-30 19:28:59,907 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 65 |     ----------------------------PASS
+        score (less is better) = 3.3336910071089165/1.613
+     2. Weights data distribution initialization, Base functions: 65 |     -------------------------PASS
+        score (less is better) = 0.46061782488120834/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 65 |     ------------------PASS
+        score (less is better) = 0.27833256329607453/1.613
+
+
+ [main.py:34]
+2024-06-30 19:29:01,387 - my_logger - WARNING - O2B PROYECTIONS: NAN ERROR [schmidt.py:296]
+2024-06-30 19:29:01,388 - my_logger - DEBUG - [[ 0.00000000e+00  0.00000000e+00  0.00000000e+00 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [ 1.40086119e+00  0.00000000e+00  0.00000000e+00 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [ 1.40380042e+00 -7.34604211e-04  0.00000000e+00 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ ...
+ [ 1.40789376e+00 -1.09641202e-02  1.02430673e-03 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [ 1.40771255e+00 -1.09807528e-02  1.02257956e-03 ...             nan
+   0.00000000e+00  0.00000000e+00]
+ [ 1.40587168e+00 -1.19343053e-02  1.10799993e-03 ...             nan
+              nan  0.00000000e+00]] [schmidt.py:297]
+2024-06-30 19:29:01,390 - my_logger - WARNING - BETAS: NAN ERROR [schmidt.py:301]
+2024-06-30 19:29:02,334 - my_logger - WARNING - F2O PROYECTIONS: NAN ERROR [schmidt.py:176]
+2024-06-30 19:29:02,336 - my_logger - WARNING - SIGMAS: NAN ERROR [schmidt.py:184]
+2024-06-30 19:29:02,715 - my_logger - WARNING - O2B PROYECTIONS: NAN ERROR [schmidt.py:296]
+2024-06-30 19:29:02,715 - my_logger - DEBUG - [[ 0.00000000e+00  0.00000000e+00  0.00000000e+00 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [ 1.40414377e+00  0.00000000e+00  0.00000000e+00 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [ 1.40604399e+00 -3.39453461e-03  0.00000000e+00 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ ...
+ [ 1.41073861e+00  2.52762370e-03  1.02961854e-03 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [ 1.41060354e+00  1.62698508e-04  1.87147409e-03 ...             nan
+   0.00000000e+00  0.00000000e+00]
+ [ 1.40996284e+00  1.97315127e-03  5.96049429e-04 ...             nan
+              nan  0.00000000e+00]] [schmidt.py:297]
+2024-06-30 19:29:02,717 - my_logger - WARNING - BETAS: NAN ERROR [schmidt.py:301]
+2024-06-30 19:29:03,695 - my_logger - WARNING - F2O PROYECTIONS: NAN ERROR [schmidt.py:176]
+2024-06-30 19:29:03,697 - my_logger - WARNING - SIGMAS: NAN ERROR [schmidt.py:184]
+2024-06-30 19:29:03,908 - my_logger - WARNING - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 70 |     ----------------------------PASS
+        score (less is better) = 3.039502901554673/1.613
+     2. Weights data distribution initialization, Base functions: 70 |     -------------------------FAILED
+     error: NAN error
+     traceback: Traceback (most recent call last):
+  File "C:\Users\Diego\Desktop\GRAM\python\source\tests\basic_tests.py", line 160, in run_distribution_test
+    raise ValueError("NAN error")
+ValueError: NAN error
+
+     3. Bias & Weights data distribution initialization, Base functions: 70 |     ------------------FAILED
+     error: NAN error
+     traceback: Traceback (most recent call last):
+  File "C:\Users\Diego\Desktop\GRAM\python\source\tests\basic_tests.py", line 187, in run_distribution_test
+    raise ValueError("NAN error")
+ValueError: NAN error
+
+
+ [main.py:36]
+2024-06-30 19:30:53,857 - my_logger - INFO - ---BASIC TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 1 |     ------------------------------------------------PASS
+     2. Data dimensions: 10, Base functions: 20 |     ----------------------------------------------PASS
+
+
+ [main.py:19]
+2024-06-30 19:30:55,862 - my_logger - INFO - ---CORE TEST RESULTS---
+
+     1. Bias lineal initialization, Base functions: 100 |     --------------------------------------PASS
+        score (less is better) = 1.613185178507015/1.613
+
+
+ [main.py:26]
+2024-06-30 19:30:56,211 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 5 |     -----------------------------PASS
+        score (less is better) = 24.58959273582787/1.613
+     2. Weights data distribution initialization, Base functions: 5 |     --------------------------PASS
+        score (less is better) = 27.370618649451366/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 5 |     -------------------PASS
+        score (less is better) = 27.39594431967988/1.613
+
+
+ [main.py:34]
+2024-06-30 19:30:56,782 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 10 |     ----------------------------PASS
+        score (less is better) = 21.10794407218955/1.613
+     2. Weights data distribution initialization, Base functions: 10 |     -------------------------PASS
+        score (less is better) = 9.486980422973556/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 10 |     ------------------PASS
+        score (less is better) = 9.441793251693857/1.613
+
+
+ [main.py:34]
+2024-06-30 19:30:57,604 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 15 |     ----------------------------PASS
+        score (less is better) = 16.511800291838146/1.613
+     2. Weights data distribution initialization, Base functions: 15 |     -------------------------PASS
+        score (less is better) = 3.4123391857468537/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 15 |     ------------------PASS
+        score (less is better) = 3.82209301366719/1.613
+
+
+ [main.py:34]
+2024-06-30 19:30:58,670 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 20 |     ----------------------------PASS
+        score (less is better) = 12.818134193646147/1.613
+     2. Weights data distribution initialization, Base functions: 20 |     -------------------------PASS
+        score (less is better) = 1.7913361054661343/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 20 |     ------------------PASS
+        score (less is better) = 1.7197506289590918/1.613
+
+
+ [main.py:34]
+2024-06-30 19:31:00,027 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 25 |     ----------------------------PASS
+        score (less is better) = 10.443925042804612/1.613
+     2. Weights data distribution initialization, Base functions: 25 |     -------------------------PASS
+        score (less is better) = 1.107790481897545/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 25 |     ------------------PASS
+        score (less is better) = 1.3134466392315467/1.613
+
+
+ [main.py:34]
+2024-06-30 19:31:01,633 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 30 |     ----------------------------PASS
+        score (less is better) = 8.831066399981522/1.613
+     2. Weights data distribution initialization, Base functions: 30 |     -------------------------PASS
+        score (less is better) = 0.7385216601690491/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 30 |     ------------------PASS
+        score (less is better) = 0.9321454630408201/1.613
+
+
+ [main.py:34]
+2024-06-30 19:31:03,517 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 35 |     ----------------------------PASS
+        score (less is better) = 7.22108958545488/1.613
+     2. Weights data distribution initialization, Base functions: 35 |     -------------------------PASS
+        score (less is better) = 0.5322586239036533/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 35 |     ------------------PASS
+        score (less is better) = 0.5535532547861729/1.613
+
+
+ [main.py:34]
+2024-06-30 19:31:05,656 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 40 |     ----------------------------PASS
+        score (less is better) = 6.2908710483849815/1.613
+     2. Weights data distribution initialization, Base functions: 40 |     -------------------------PASS
+        score (less is better) = 0.4070735690059511/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 40 |     ------------------PASS
+        score (less is better) = 0.38875592164979295/1.613
+
+
+ [main.py:34]
+2024-06-30 19:31:08,104 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 45 |     ----------------------------PASS
+        score (less is better) = 5.3912742614018025/1.613
+     2. Weights data distribution initialization, Base functions: 45 |     -------------------------PASS
+        score (less is better) = 0.3169222952896264/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 45 |     ------------------PASS
+        score (less is better) = 0.3406995829573415/1.613
+
+
+ [main.py:34]
+2024-06-30 19:31:10,919 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 50 |     ----------------------------PASS
+        score (less is better) = 4.590561320409099/1.613
+     2. Weights data distribution initialization, Base functions: 50 |     -------------------------PASS
+        score (less is better) = 0.31199575231572646/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 50 |     ------------------PASS
+        score (less is better) = 0.28216096035114396/1.613
+
+
+ [main.py:34]
+2024-06-30 19:31:13,964 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 55 |     ----------------------------PASS
+        score (less is better) = 4.24793394610764/1.613
+     2. Weights data distribution initialization, Base functions: 55 |     -------------------------PASS
+        score (less is better) = 0.24408390410645453/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 55 |     ------------------PASS
+        score (less is better) = 0.26322740974902203/1.613
+
+
+ [main.py:34]
+2024-06-30 19:31:17,291 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 60 |     ----------------------------PASS
+        score (less is better) = 3.7658739563321832/1.613
+     2. Weights data distribution initialization, Base functions: 60 |     -------------------------PASS
+        score (less is better) = 0.2300029810239864/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 60 |     ------------------PASS
+        score (less is better) = 0.24538304891465135/1.613
+
+
+ [main.py:34]
+2024-06-30 19:31:21,012 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 65 |     ----------------------------PASS
+        score (less is better) = 3.3336910071089165/1.613
+     2. Weights data distribution initialization, Base functions: 65 |     -------------------------PASS
+        score (less is better) = 0.46061782488120834/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 65 |     ------------------PASS
+        score (less is better) = 0.27833256329607453/1.613
+
+
+ [main.py:34]
+2024-06-30 19:31:22,491 - my_logger - WARNING - O2B PROYECTIONS: NAN ERROR [schmidt.py:296]
+2024-06-30 19:31:22,491 - my_logger - DEBUG - [[ 0.00000000e+00  0.00000000e+00  0.00000000e+00 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [ 1.40086119e+00  0.00000000e+00  0.00000000e+00 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [ 1.40380042e+00 -7.34604211e-04  0.00000000e+00 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ ...
+ [ 1.40789376e+00 -1.09641202e-02  1.02430673e-03 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [ 1.40771255e+00 -1.09807528e-02  1.02257956e-03 ...             nan
+   0.00000000e+00  0.00000000e+00]
+ [ 1.40587168e+00 -1.19343053e-02  1.10799993e-03 ...             nan
+              nan  0.00000000e+00]] [schmidt.py:297]
+2024-06-30 19:31:22,493 - my_logger - WARNING - BETAS: NAN ERROR [schmidt.py:301]
+2024-06-30 19:31:23,425 - my_logger - WARNING - F2O PROYECTIONS: NAN ERROR [schmidt.py:176]
+2024-06-30 19:31:23,427 - my_logger - WARNING - SIGMAS: NAN ERROR [schmidt.py:184]
+2024-06-30 19:31:23,818 - my_logger - WARNING - O2B PROYECTIONS: NAN ERROR [schmidt.py:296]
+2024-06-30 19:31:23,818 - my_logger - DEBUG - [[ 0.00000000e+00  0.00000000e+00  0.00000000e+00 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [ 1.40414377e+00  0.00000000e+00  0.00000000e+00 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [ 1.40604399e+00 -3.39453461e-03  0.00000000e+00 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ ...
+ [ 1.41073861e+00  2.52762370e-03  1.02961854e-03 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [ 1.41060354e+00  1.62698508e-04  1.87147409e-03 ...             nan
+   0.00000000e+00  0.00000000e+00]
+ [ 1.40996284e+00  1.97315127e-03  5.96049429e-04 ...             nan
+              nan  0.00000000e+00]] [schmidt.py:297]
+2024-06-30 19:31:23,820 - my_logger - WARNING - BETAS: NAN ERROR [schmidt.py:301]
+2024-06-30 19:31:24,797 - my_logger - WARNING - F2O PROYECTIONS: NAN ERROR [schmidt.py:176]
+2024-06-30 19:31:24,800 - my_logger - WARNING - SIGMAS: NAN ERROR [schmidt.py:184]
+2024-06-30 19:31:25,009 - my_logger - WARNING - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 70 |     ----------------------------PASS
+        score (less is better) = 3.039502901554673/1.613
+     2. Weights data distribution initialization, Base functions: 70 |     -------------------------FAILED
+     error: NAN error
+     traceback: Traceback (most recent call last):
+  File "C:\Users\Diego\Desktop\GRAM\python\source\tests\basic_tests.py", line 162, in run_distribution_test
+    raise ValueError("NAN error")
+ValueError: NAN error
+
+     3. Bias & Weights data distribution initialization, Base functions: 70 |     ------------------FAILED
+     error: NAN error
+     traceback: Traceback (most recent call last):
+  File "C:\Users\Diego\Desktop\GRAM\python\source\tests\basic_tests.py", line 189, in run_distribution_test
+    raise ValueError("NAN error")
+ValueError: NAN error
+
+
+ [main.py:36]
+2024-06-30 19:51:50,910 - my_logger - WARNING - B2B PROYECTIONS: NAN ERROR [schmidt.py:264]
+2024-06-30 19:51:51,424 - my_logger - WARNING - F2B PROYECTIONS: NAN ERROR [schmidt.py:169]
+2024-06-30 19:57:26,842 - my_logger - WARNING - B2B PROYECTIONS: NAN ERROR [schmidt.py:264]
+2024-06-30 19:57:27,360 - my_logger - WARNING - F2B PROYECTIONS: NAN ERROR [schmidt.py:169]
+2024-06-30 20:05:29,221 - my_logger - INFO - ---BASIC TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 1 |     ------------------------------------------------PASS
+     2. Data dimensions: 10, Base functions: 20 |     ----------------------------------------------PASS
+
+
+ [main.py:19]
+2024-06-30 20:05:49,078 - my_logger - INFO - ---CORE TEST RESULTS---
+
+     1. Bias lineal initialization, Base functions: 100 |     --------------------------------------PASS
+        score (less is better) = 1.613185178507015/1.613
+
+
+ [main.py:26]

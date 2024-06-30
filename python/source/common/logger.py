@@ -24,8 +24,10 @@ def create_logger():
         }
     )
 
-    directorio_actual = os.path.dirname(os.path.abspath(__file__))
-    ruta_directorio = os.path.join(directorio_actual, 'logs')
+    directorio_common = os.path.dirname(os.path.abspath(__file__))
+    directorio_source = os.path.dirname(directorio_common)
+    directorio_python = os.path.dirname(directorio_source)
+    ruta_directorio = os.path.join(directorio_python, 'logs')
     ruta_logs = os.path.join(ruta_directorio, 'mi_log.log')
 
     if os.path.exists(ruta_directorio):

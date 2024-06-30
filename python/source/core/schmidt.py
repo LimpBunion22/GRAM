@@ -34,21 +34,21 @@ class Istar:
         if method == "common":
             if not isinstance(val, (int, float)):
                 self.logger.error('Unsupported weight initialization value type')
-                exit()
+                return
             self.weights = val*self.weights
         elif  method == "random":
             if not isinstance(val, (int, float)):
                 self.logger.error('Unsupported weight initialization value type')
-                exit()
-            self.weights = val*(1-np.random.rand((self.n_base_funcs,self.n_dim)))
+                return
+            self.weights = val*(1-np.random.rand(self.n_base_funcs,self.n_dim))
         elif  method == "external":
             if not (isinstance(val, np.ndarray) and val.shape == (self.n_base_funcs,self.n_dim)):
                 self.logger.error('Unsupported weight initialization value type')
-                exit()
+                return
             self.weights = copy.copy(val)
         else:
             self.logger.error('Unsupported weight initialization method')
-            exit()
+            return
 
     def init_bias(self, method, val = 1):
         """
@@ -69,7 +69,7 @@ class Istar:
         if method == "lineal":
             if not isinstance(val, (int, float)):
                 self.logger.error('Unsupported bias initialization value type')
-                exit()
+                return
 
             n_points_per_dimension = int(np.power(self.n_base_funcs,1/self.n_dim))
             n_base_lin = np.power(n_points_per_dimension,self.n_dim)
@@ -79,7 +79,7 @@ class Istar:
             bias = -1*np.ones(self.n_dim)+bias_step/2
             dim_cnt = np.zeros(self.n_dim)
             self.bias[0,:] = copy.copy(bias)
-            for i in range(1,self.n_base_funcs):
+            for i in range(1,n_base_lin):
                 j = 0
                 while True:
                     dim_cnt[j] += 1
@@ -91,20 +91,20 @@ class Istar:
                     else:
                         break
                 self.bias[i,:] = copy.copy(bias)
-            self.bias[n_base_lin:(n_base_lin+n_base_rand),:] = 1-2*np.random.rand((n_base_rand,self.n_dim))
+            self.bias[n_base_lin:(n_base_lin+n_base_rand),:] = 1-2*np.random.rand(n_base_rand,self.n_dim)
         elif  method == "random":
             if not isinstance(val, (int, float)):
                 self.logger.error('Unsupported bias initialization value type')
-                exit()
-            self.bias = val*(1-2*np.random.rand((self.n_base_funcs,self.n_dim)))
+                return
+            self.bias = val*(1-2*np.random.rand(self.n_base_funcs,self.n_dim))
         elif  method == "external":
             if not (isinstance(val, np.ndarray) and val.shape == (self.n_base_funcs,self.n_dim)):
                 self.logger.error('Unsupported bias initialization value type')
-                exit()
+                return
             self.bias = copy.copy(val)
         else:
             self.logger.error('Unsupported bias initialization method')
-            exit()
+            return
 
     def evaluate_ortogonal_base(self):
         """
@@ -127,16 +127,17 @@ class Istar:
         :param labels:  Data labels vector
 
         """
+        self.sigma = np.zeros(self.n_base_funcs)
         if not (isinstance(labels, np.ndarray)):
             self.logger.error('Unsupported labels type')
-            exit()
+            return copy.copy(self.sigma)
         n_data = len(labels)
         if not (isinstance(inputs, np.ndarray) and inputs.shape == (n_data,self.n_dim)):
             self.logger.error('Unsupported inputs type')
-            exit()
+            return copy.copy(self.sigma)
         if not (isinstance(area, np.ndarray) and area.shape == (n_data,self.n_dim)):
             self.logger.error('Unsupported inputs type')
-            exit()
+            return copy.copy(self.sigma)
 
         # Proyections
         proyections_f2b = np.zeros(self.n_base_funcs)
@@ -159,7 +160,7 @@ class Istar:
                         low_lim = sections_limits[s]
                         up_lim = sections_limits[s+1]
 
-                        w1s = sections_signs[s]*w1
+                        w1s = sections_signs[0,s]*w1
                         dim_coef += 1/w1s*np.log(np.abs(1+w1s*(up_lim - b1))) - 1/w1s*np.log(np.abs(1+w1s*(low_lim - b1)))
                     data_sum *=dim_coef
                 proyections_f2b[i] += labels[d]*data_sum
@@ -175,15 +176,38 @@ class Istar:
             self.logger.warning("F2O PROYECTIONS: NAN ERROR")
 
         # Sigmas
-        sigma = np.zeros(self.n_base_funcs)
         for i in range(self.n_base_funcs):
             for j in range(self.n_base_funcs):
-                sigma[i] += proyections_f2o[j]*self.betas[j,i]
+                self.sigma[i] += proyections_f2o[j]*self.betas[j,i]
 
-        if(np.isnan(sigma).any()):
+        if(np.isnan(self.sigma).any()):
             self.logger.warning("SIGMAS: NAN ERROR")
 
-        return copy.copy(sigma)
+        return copy.copy(self.sigma)
+
+
+    def run(self, inputs):
+        """
+        Run the network over the input data.
+
+        :param inputs: Data input matrix
+
+        """
+        network_output = np.zeros(1)
+        if not (isinstance(inputs, np.ndarray) and inputs.shape == (inputs.shape[0],self.n_dim)):
+            self.logger.error('Unsupported inputs type')
+            return network_output
+
+        n_data = inputs.shape[0]
+        network_output = np.zeros(n_data)
+        for d in range(n_data):
+            first_layer_output = np.zeros(self.n_base_funcs)
+            for n in range(self.n_base_funcs):
+                first_layer_output[n] = np.prod(1/(1+np.abs(self.weights[n,:]*(inputs[d,:] - self.bias[n,:]))))
+
+            network_output[d] = np.sum(first_layer_output*self.sigma)
+
+        return network_output
 
     def _evaluate_b2b(self):
         all_okay = True
@@ -217,6 +241,15 @@ class Istar:
                             w2s = sections_signs[1,s]*w2
 
                             den = -1 + w1s/w2s - w1s*b2 + w1s*b1
+                            while den == 0:
+                                msg = "Zero in Proyection of i: "+str(i)+" over j: "+str(j)
+                                # msg += "\n W1s = "+str(w1s)
+                                # msg += "\n W2s = "+str(w2s)
+                                # msg += "\n b1 = "+str(b1)
+                                # msg += "\n b2 = "+str(b2)
+                                self.logger.warning(msg)
+                                w2s += 0.1
+                                den = -1 + w1s/w2s - w1s*b2 + w1s*b1
                             num2 = 1/den
                             num1 = w1s/w2s*num2
 
@@ -261,6 +294,7 @@ class Istar:
 
         if(np.isnan(self.proyections_o2b).any()):
             self.logger.warning("O2B PROYECTIONS: NAN ERROR")
+            self.logger.debug(self.proyections_o2b)
             all_okay = False
 
         if(np.isnan(self.betas).any()):
@@ -276,7 +310,7 @@ def _evaluate_integration_sections(soft_limits, hard_limits):
     n_soft_limits = len(soft_limits)
     max_sections = n_soft_limits+1
     sections_signs = np.zeros((n_soft_limits,max_sections))
-    sections_limits = hard_limits[1]*np.ones(max_sections)
+    sections_limits = hard_limits[1]*np.ones(max_sections+1)
 
     sort_lims = np.sort(soft_limits)
     sort_ind_lims = np.argsort(soft_limits)
@@ -286,11 +320,11 @@ def _evaluate_integration_sections(soft_limits, hard_limits):
         if sort_lims[i] <= hard_limits[0]:
             sections_signs[sort_ind_lims[i],:] = np.ones(max_sections)
             continue
-        if sort_lims[i] >= hard_limits[0]:
+        if sort_lims[i] >= hard_limits[1]:
             sections_signs[sort_ind_lims[i],:] = -np.ones(max_sections)
             continue
-        sections_signs[sort_ind_lims[i],0:section_cnt] = np.ones(section_cnt)
-        sections_signs[sort_ind_lims[i],section_cnt:max_sections] = -np.ones(section_cnt)
+        sections_signs[sort_ind_lims[i],0:section_cnt] = -np.ones(section_cnt)
+        sections_signs[sort_ind_lims[i],section_cnt:max_sections] = np.ones(max_sections-section_cnt)
         sections_limits[section_cnt] = sort_lims[i]
         section_cnt += 1
 

@@ -41,16 +41,16 @@ def evaluate_influence_areas(inputs):
 
         for d in range(inputs.shape[1]):
 
-            index = np.argsort(inputs)
+            index = np.argsort(inputs[:,d])
 
             a = index[0]
             b = index[1]
-            areas[b,d] = (inputs[b,d] - inputs[a,d])/2
-            areas[a,d] = areas[a,d]
+            areas[b,d] = np.abs((inputs[b,d] - inputs[a,d])/2)
+            areas[a,d] = areas[b,d]
             for i in range(1,inputs.shape[0]):
                 a = index[i-1]
                 b = index[i]
-                areas[b,d] = (inputs[b,d] - inputs[a,d])/2
+                areas[b,d] = np.abs((inputs[b,d] - inputs[a,d])/2)
                 areas[a,d] = np.min([areas[a,d],areas[b,d]])
 
         return areas
