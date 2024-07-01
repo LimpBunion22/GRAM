@@ -1675,3 +1675,890 @@ ValueError: NAN error
 2024-06-30 20:17:24,662 - my_logger - WARNING - F2B PROYECTIONS: NAN ERROR [schmidt.py:169]
 2024-06-30 20:17:33,346 - my_logger - WARNING - B2B PROYECTIONS: NAN ERROR [schmidt.py:264]
 2024-06-30 20:17:33,753 - my_logger - WARNING - F2B PROYECTIONS: NAN ERROR [schmidt.py:169]
+2024-07-01 20:13:28,141 - my_logger - WARNING - B2B PROYECTIONS: NAN ERROR [schmidt.py:264]
+2024-07-01 20:13:29,813 - my_logger - WARNING - F2B PROYECTIONS: NAN ERROR [schmidt.py:169]
+2024-07-01 20:16:58,696 - my_logger - WARNING - O2B PROYECTIONS: NAN ERROR [schmidt.py:296]
+2024-07-01 20:16:58,696 - my_logger - DEBUG - [[0.         0.         0.         ... 0.         0.         0.        ]
+ [3.99967405 0.         0.         ... 0.         0.         0.        ]
+ [3.81184864        nan 0.         ... 0.         0.         0.        ]
+ ...
+ [3.9995564         nan        nan ... 0.         0.         0.        ]
+ [3.99955315        nan        nan ...        nan 0.         0.        ]
+ [3.99967405        nan        nan ...        nan        nan 0.        ]] [schmidt.py:297]
+2024-07-01 20:16:58,697 - my_logger - WARNING - BETAS: NAN ERROR [schmidt.py:301]
+2024-07-01 20:17:00,187 - my_logger - WARNING - F2O PROYECTIONS: NAN ERROR [schmidt.py:176]
+2024-07-01 20:17:00,191 - my_logger - WARNING - SIGMAS: NAN ERROR [schmidt.py:184]
+2024-07-01 20:18:08,082 - my_logger - WARNING - O2B PROYECTIONS: NAN ERROR [schmidt.py:296]
+2024-07-01 20:18:08,082 - my_logger - DEBUG - [[0.         0.         0.         ... 0.         0.         0.        ]
+ [3.99967405 0.         0.         ... 0.         0.         0.        ]
+ [3.81184864        nan 0.         ... 0.         0.         0.        ]
+ ...
+ [3.9995564         nan        nan ... 0.         0.         0.        ]
+ [3.99955315        nan        nan ...        nan 0.         0.        ]
+ [3.99967405        nan        nan ...        nan        nan 0.        ]] [schmidt.py:297]
+2024-07-01 20:18:08,083 - my_logger - WARNING - BETAS: NAN ERROR [schmidt.py:301]
+2024-07-01 20:18:09,485 - my_logger - WARNING - F2O PROYECTIONS: NAN ERROR [schmidt.py:176]
+2024-07-01 20:18:09,488 - my_logger - WARNING - SIGMAS: NAN ERROR [schmidt.py:184]
+2024-07-01 20:18:35,846 - my_logger - WARNING - Zero in Proyection of i: 9 over j: 71 [schmidt.py:250]
+2024-07-01 20:18:35,847 - my_logger - WARNING - Zero in Proyection of i: 9 over j: 71 [schmidt.py:250]
+2024-07-01 20:18:35,849 - my_logger - WARNING - Zero in Proyection of i: 9 over j: 85 [schmidt.py:250]
+2024-07-01 20:18:35,849 - my_logger - WARNING - Zero in Proyection of i: 9 over j: 85 [schmidt.py:250]
+2024-07-01 20:18:36,023 - my_logger - WARNING - Zero in Proyection of i: 25 over j: 35 [schmidt.py:250]
+2024-07-01 20:18:36,023 - my_logger - WARNING - Zero in Proyection of i: 25 over j: 35 [schmidt.py:250]
+2024-07-01 20:19:24,746 - my_logger - WARNING - O2B PROYECTIONS: NAN ERROR [schmidt.py:296]
+2024-07-01 20:19:24,746 - my_logger - DEBUG - [[0.         0.         0.         ... 0.         0.         0.        ]
+ [3.99963618 0.         0.         ... 0.         0.         0.        ]
+ [3.83337066        nan 0.         ... 0.         0.         0.        ]
+ ...
+ [3.99954334        nan        nan ... 0.         0.         0.        ]
+ [3.99950491        nan        nan ...        nan 0.         0.        ]
+ [3.99963618        nan        nan ...        nan        nan 0.        ]] [schmidt.py:297]
+2024-07-01 20:19:24,747 - my_logger - WARNING - BETAS: NAN ERROR [schmidt.py:301]
+2024-07-01 20:19:26,177 - my_logger - WARNING - F2O PROYECTIONS: NAN ERROR [schmidt.py:176]
+2024-07-01 20:19:26,180 - my_logger - WARNING - SIGMAS: NAN ERROR [schmidt.py:184]
+2024-07-01 20:19:59,233 - my_logger - WARNING - O2B PROYECTIONS: NAN ERROR [schmidt.py:296]
+2024-07-01 20:19:59,234 - my_logger - DEBUG - [[0.         0.         0.         ... 0.         0.         0.        ]
+ [3.99967405 0.         0.         ... 0.         0.         0.        ]
+ [3.81184864        nan 0.         ... 0.         0.         0.        ]
+ ...
+ [3.9995564         nan        nan ... 0.         0.         0.        ]
+ [3.99955315        nan        nan ...        nan 0.         0.        ]
+ [3.99967405        nan        nan ...        nan        nan 0.        ]] [schmidt.py:297]
+2024-07-01 20:19:59,236 - my_logger - WARNING - BETAS: NAN ERROR [schmidt.py:301]
+2024-07-01 20:20:02,183 - my_logger - WARNING - F2O PROYECTIONS: NAN ERROR [schmidt.py:176]
+2024-07-01 20:20:02,189 - my_logger - WARNING - SIGMAS: NAN ERROR [schmidt.py:184]
+2024-07-01 20:23:44,001 - my_logger - WARNING - O2B PROYECTIONS: NAN ERROR [schmidt.py:296]
+2024-07-01 20:23:44,001 - my_logger - DEBUG - [[ 0.00000000e+00  0.00000000e+00  0.00000000e+00 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [ 3.99967395e+00  0.00000000e+00  0.00000000e+00 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [ 3.81184864e+00 -1.03806125e-02  0.00000000e+00 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ ...
+ [ 3.99967394e+00  1.72077452e+04  1.11110287e+04 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [ 3.99967393e+00 -3.43505293e+03 -2.21805076e+03 ...             nan
+   0.00000000e+00  0.00000000e+00]
+ [ 3.99967395e+00  1.93689541e+05  1.25065536e+05 ...             nan
+              nan  0.00000000e+00]] [schmidt.py:297]
+2024-07-01 20:23:44,003 - my_logger - WARNING - BETAS: NAN ERROR [schmidt.py:301]
+2024-07-01 20:23:45,516 - my_logger - WARNING - F2O PROYECTIONS: NAN ERROR [schmidt.py:176]
+2024-07-01 20:23:45,520 - my_logger - WARNING - SIGMAS: NAN ERROR [schmidt.py:184]
+2024-07-01 20:45:19,251 - my_logger - INFO - ---BASIC TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 1 |     ------------------------------------------------PASS
+     2. Data dimensions: 10, Base functions: 20 |     ----------------------------------------------PASS
+
+
+ [main.py:19]
+2024-07-01 20:45:21,259 - my_logger - INFO - ---CORE TEST RESULTS---
+
+     1. Bias lineal initialization, Base functions: 100 |     --------------------------------------PASS
+        score (less is better) = 1.613185178507015/1.613
+
+
+ [main.py:26]
+2024-07-01 20:45:21,575 - my_logger - WARNING - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 5 |     -----------------------------FAILED
+     error: invalid index to scalar variable.
+     traceback: Traceback (most recent call last):
+  File "C:\Users\Diego\Desktop\GRAM\python\source\tests\basic_tests.py", line 125, in run_distribution_test
+    (bias,weights) = distribute_bases(data_in, base_functions)
+  File "C:\Users\Diego\Desktop\GRAM\python\source\core\data_analysis.py", line 28, in distribute_bases
+    distancia_media_i[i] = np.max([distancia_media_i[i],MIN_W])
+IndexError: invalid index to scalar variable.
+
+     2. Weights data distribution initialization, Base functions: 5 |     --------------------------FAILED
+     error: invalid index to scalar variable.
+     traceback: Traceback (most recent call last):
+  File "C:\Users\Diego\Desktop\GRAM\python\source\tests\basic_tests.py", line 152, in run_distribution_test
+    (bias,weights) = distribute_bases(data_in, base_functions)
+  File "C:\Users\Diego\Desktop\GRAM\python\source\core\data_analysis.py", line 28, in distribute_bases
+    distancia_media_i[i] = np.max([distancia_media_i[i],MIN_W])
+IndexError: invalid index to scalar variable.
+
+     3. Bias & Weights data distribution initialization, Base functions: 5 |     -------------------FAILED
+     error: invalid index to scalar variable.
+     traceback: Traceback (most recent call last):
+  File "C:\Users\Diego\Desktop\GRAM\python\source\tests\basic_tests.py", line 179, in run_distribution_test
+    (bias,weights) = distribute_bases(data_in, base_functions)
+  File "C:\Users\Diego\Desktop\GRAM\python\source\core\data_analysis.py", line 28, in distribute_bases
+    distancia_media_i[i] = np.max([distancia_media_i[i],MIN_W])
+IndexError: invalid index to scalar variable.
+
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 5 |     -----------PASS
+        score (less is better) = 23.051145018392173/1.613
+
+
+ [main.py:36]
+2024-07-01 20:46:57,105 - my_logger - INFO - ---BASIC TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 1 |     ------------------------------------------------PASS
+     2. Data dimensions: 10, Base functions: 20 |     ----------------------------------------------PASS
+
+
+ [main.py:19]
+2024-07-01 20:46:59,111 - my_logger - INFO - ---CORE TEST RESULTS---
+
+     1. Bias lineal initialization, Base functions: 100 |     --------------------------------------PASS
+        score (less is better) = 1.613185178507015/1.613
+
+
+ [main.py:26]
+2024-07-01 20:46:59,723 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 5 |     -----------------------------PASS
+        score (less is better) = 24.58959273582787/1.613
+     2. Weights data distribution initialization, Base functions: 5 |     --------------------------PASS
+        score (less is better) = 22.91421949719817/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 5 |     -------------------PASS
+        score (less is better) = 23.051911979207546/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 5 |     -----------PASS
+        score (less is better) = 23.051145018392173/1.613
+
+
+ [main.py:34]
+2024-07-01 20:47:00,522 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 10 |     ----------------------------PASS
+        score (less is better) = 21.10794407218955/1.613
+     2. Weights data distribution initialization, Base functions: 10 |     -------------------------PASS
+        score (less is better) = 20.348586555409458/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 10 |     ------------------PASS
+        score (less is better) = 20.29820544661404/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 10 |     ----------PASS
+        score (less is better) = 20.296887204100365/1.613
+
+
+ [main.py:34]
+2024-07-01 20:47:01,659 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 15 |     ----------------------------PASS
+        score (less is better) = 16.511800291838146/1.613
+     2. Weights data distribution initialization, Base functions: 15 |     -------------------------PASS
+        score (less is better) = 17.27430002866716/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 15 |     ------------------PASS
+        score (less is better) = 17.440866320482765/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 15 |     ----------PASS
+        score (less is better) = 17.484598922567933/1.613
+
+
+ [main.py:34]
+2024-07-01 20:47:03,152 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 20 |     ----------------------------PASS
+        score (less is better) = 12.818134193646147/1.613
+     2. Weights data distribution initialization, Base functions: 20 |     -------------------------PASS
+        score (less is better) = 15.314736713922875/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 20 |     ------------------PASS
+        score (less is better) = 15.302147307689948/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 20 |     ----------PASS
+        score (less is better) = 15.383422357401862/1.613
+
+
+ [main.py:34]
+2024-07-01 20:47:04,968 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 25 |     ----------------------------PASS
+        score (less is better) = 10.443925042804612/1.613
+     2. Weights data distribution initialization, Base functions: 25 |     -------------------------PASS
+        score (less is better) = 14.622387079915955/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 25 |     ------------------PASS
+        score (less is better) = 14.325594762075394/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 25 |     ----------PASS
+        score (less is better) = 14.469248401407683/1.613
+
+
+ [main.py:34]
+2024-07-01 20:47:07,137 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 30 |     ----------------------------PASS
+        score (less is better) = 8.831066399981522/1.613
+     2. Weights data distribution initialization, Base functions: 30 |     -------------------------PASS
+        score (less is better) = 13.543142803779068/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 30 |     ------------------PASS
+        score (less is better) = 13.601996555971182/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 30 |     ----------PASS
+        score (less is better) = 13.787916555649407/1.613
+
+
+ [main.py:34]
+2024-07-01 20:47:09,654 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 35 |     ----------------------------PASS
+        score (less is better) = 7.22108958545488/1.613
+     2. Weights data distribution initialization, Base functions: 35 |     -------------------------PASS
+        score (less is better) = 12.730515906055226/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 35 |     ------------------PASS
+        score (less is better) = 13.00105107344001/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 35 |     ----------PASS
+        score (less is better) = 13.20975722491428/1.613
+
+
+ [main.py:34]
+2024-07-01 20:47:12,523 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 40 |     ----------------------------PASS
+        score (less is better) = 6.2908710483849815/1.613
+     2. Weights data distribution initialization, Base functions: 40 |     -------------------------PASS
+        score (less is better) = 12.10155316537228/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 40 |     ------------------PASS
+        score (less is better) = 12.606361150518241/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 40 |     ----------PASS
+        score (less is better) = 12.871752409151641/1.613
+
+
+ [main.py:34]
+2024-07-01 20:47:15,805 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 45 |     ----------------------------PASS
+        score (less is better) = 5.3912742614018025/1.613
+     2. Weights data distribution initialization, Base functions: 45 |     -------------------------PASS
+        score (less is better) = 11.821967650872354/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 45 |     ------------------PASS
+        score (less is better) = 12.239664103683731/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 45 |     ----------PASS
+        score (less is better) = 12.586571700768534/1.613
+
+
+ [main.py:34]
+2024-07-01 20:47:19,458 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 50 |     ----------------------------PASS
+        score (less is better) = 4.590561320409099/1.613
+     2. Weights data distribution initialization, Base functions: 50 |     -------------------------PASS
+        score (less is better) = 12.88690587920748/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 50 |     ------------------PASS
+        score (less is better) = 11.832506813530683/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 50 |     ----------PASS
+        score (less is better) = 12.292994323061297/1.613
+
+
+ [main.py:34]
+2024-07-01 20:47:23,547 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 55 |     ----------------------------PASS
+        score (less is better) = 4.24793394610764/1.613
+     2. Weights data distribution initialization, Base functions: 55 |     -------------------------PASS
+        score (less is better) = 11.301542641975908/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 55 |     ------------------PASS
+        score (less is better) = 11.652813128519318/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 55 |     ----------PASS
+        score (less is better) = 12.121612462856154/1.613
+
+
+ [main.py:34]
+2024-07-01 20:47:28,030 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 60 |     ----------------------------PASS
+        score (less is better) = 3.7658739563321832/1.613
+     2. Weights data distribution initialization, Base functions: 60 |     -------------------------PASS
+        score (less is better) = 10.868302700847119/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 60 |     ------------------PASS
+        score (less is better) = 11.319613748200537/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 60 |     ----------PASS
+        score (less is better) = 11.89625931789254/1.613
+
+
+ [main.py:34]
+2024-07-01 20:47:32,928 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 65 |     ----------------------------PASS
+        score (less is better) = 3.3336910071089165/1.613
+     2. Weights data distribution initialization, Base functions: 65 |     -------------------------PASS
+        score (less is better) = 10.752794970292516/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 65 |     ------------------PASS
+        score (less is better) = 11.264536997075249/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 65 |     ----------PASS
+        score (less is better) = 11.885410735319722/1.613
+
+
+ [main.py:34]
+2024-07-01 20:47:38,231 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 70 |     ----------------------------PASS
+        score (less is better) = 3.039502901554673/1.613
+     2. Weights data distribution initialization, Base functions: 70 |     -------------------------PASS
+        score (less is better) = 10.353092811259792/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 70 |     ------------------PASS
+        score (less is better) = 11.28483838137049/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 70 |     ----------PASS
+        score (less is better) = 11.88337952744497/1.613
+
+
+ [main.py:34]
+2024-07-01 20:47:43,986 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 75 |     ----------------------------PASS
+        score (less is better) = 2.7061476919078666/1.613
+     2. Weights data distribution initialization, Base functions: 75 |     -------------------------PASS
+        score (less is better) = 10.595276829368277/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 75 |     ------------------PASS
+        score (less is better) = 11.23207971426899/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 75 |     ----------PASS
+        score (less is better) = 11.799872756666455/1.613
+
+
+ [main.py:34]
+2024-07-01 20:58:33,616 - my_logger - INFO - ---BASIC TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 1 |     ------------------------------------------------PASS
+     2. Data dimensions: 10, Base functions: 20 |     ----------------------------------------------PASS
+
+
+ [main.py:19]
+2024-07-01 20:58:35,655 - my_logger - INFO - ---CORE TEST RESULTS---
+
+     1. Bias lineal initialization, Base functions: 100 |     --------------------------------------PASS
+        score (less is better) = 1.613185178507015/1.613
+
+
+ [main.py:26]
+2024-07-01 20:58:36,505 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 10 |     ----------------------------PASS
+        score (less is better) = 21.10794407218955/1.613
+     2. Weights data distribution initialization, Base functions: 10 |     -------------------------PASS
+        score (less is better) = 15.285916094744362/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 10 |     ------------------PASS
+        score (less is better) = 15.213295199998333/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 10 |     ----------PASS
+        score (less is better) = 15.197032460922394/1.613
+
+
+ [main.py:35]
+2024-07-01 20:58:37,977 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 20 |     ----------------------------PASS
+        score (less is better) = 12.818134193646147/1.613
+     2. Weights data distribution initialization, Base functions: 20 |     -------------------------PASS
+        score (less is better) = 8.330302126245833/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 20 |     ------------------PASS
+        score (less is better) = 8.196491428807484/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 20 |     ----------PASS
+        score (less is better) = 8.293651680178074/1.613
+
+
+ [main.py:35]
+2024-07-01 20:58:40,139 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 30 |     ----------------------------PASS
+        score (less is better) = 8.831066399981522/1.613
+     2. Weights data distribution initialization, Base functions: 30 |     -------------------------PASS
+        score (less is better) = 6.237150577546014/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 30 |     ------------------PASS
+        score (less is better) = 6.348113021375504/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 30 |     ----------PASS
+        score (less is better) = 6.642003614649866/1.613
+
+
+ [main.py:35]
+2024-07-01 20:58:43,037 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 40 |     ----------------------------PASS
+        score (less is better) = 6.2908710483849815/1.613
+     2. Weights data distribution initialization, Base functions: 40 |     -------------------------PASS
+        score (less is better) = 5.150481624072423/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 40 |     ------------------PASS
+        score (less is better) = 5.239067736554026/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 40 |     ----------PASS
+        score (less is better) = 5.747550483914799/1.613
+
+
+ [main.py:35]
+2024-07-01 20:58:46,674 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 50 |     ----------------------------PASS
+        score (less is better) = 4.590561320409099/1.613
+     2. Weights data distribution initialization, Base functions: 50 |     -------------------------PASS
+        score (less is better) = 4.9155501703269096/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 50 |     ------------------PASS
+        score (less is better) = 4.660362772773439/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 50 |     ----------PASS
+        score (less is better) = 5.50505421226221/1.613
+
+
+ [main.py:35]
+2024-07-01 20:58:51,158 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 60 |     ----------------------------PASS
+        score (less is better) = 3.7658739563321832/1.613
+     2. Weights data distribution initialization, Base functions: 60 |     -------------------------PASS
+        score (less is better) = 4.271490874323561/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 60 |     ------------------PASS
+        score (less is better) = 4.277555794982716/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 60 |     ----------PASS
+        score (less is better) = 5.314829803097866/1.613
+
+
+ [main.py:35]
+2024-07-01 20:58:56,427 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 70 |     ----------------------------PASS
+        score (less is better) = 3.039502901554673/1.613
+     2. Weights data distribution initialization, Base functions: 70 |     -------------------------PASS
+        score (less is better) = 3.8551805817229536/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 70 |     ------------------PASS
+        score (less is better) = 4.0670102121601355/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 70 |     ----------PASS
+        score (less is better) = 5.488547086891328/1.613
+
+
+ [main.py:35]
+2024-07-01 20:59:00,114 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 50 |     ----------------------------PASS
+        score (less is better) = 4.590561320409099/1.613
+     2. Weights data distribution initialization, Base functions: 50 |     -------------------------PASS
+        score (less is better) = 0.6748735239078659/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 50 |     ------------------PASS
+        score (less is better) = 0.6779112376309795/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 50 |     ----------PASS
+        score (less is better) = 3.2191414389158366/1.613
+
+
+ [main.py:44]
+2024-07-01 20:59:03,763 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 50 |     ----------------------------PASS
+        score (less is better) = 4.590561320409099/1.613
+     2. Weights data distribution initialization, Base functions: 50 |     -------------------------PASS
+        score (less is better) = 1.335361133699604/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 50 |     ------------------PASS
+        score (less is better) = 1.3130530521620123/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 50 |     ----------PASS
+        score (less is better) = 3.2502672318707235/1.613
+
+
+ [main.py:44]
+2024-07-01 20:59:07,430 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 50 |     ----------------------------PASS
+        score (less is better) = 4.590561320409099/1.613
+     2. Weights data distribution initialization, Base functions: 50 |     -------------------------PASS
+        score (less is better) = 2.2436078732946485/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 50 |     ------------------PASS
+        score (less is better) = 2.1785807065694875/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 50 |     ----------PASS
+        score (less is better) = 3.567269755941533/1.613
+
+
+ [main.py:44]
+2024-07-01 20:59:11,097 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 50 |     ----------------------------PASS
+        score (less is better) = 4.590561320409099/1.613
+     2. Weights data distribution initialization, Base functions: 50 |     -------------------------PASS
+        score (less is better) = 3.4230344097600374/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 50 |     ------------------PASS
+        score (less is better) = 3.277819353005641/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 50 |     ----------PASS
+        score (less is better) = 4.31166429174582/1.613
+
+
+ [main.py:44]
+2024-07-01 20:59:14,717 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 50 |     ----------------------------PASS
+        score (less is better) = 4.590561320409099/1.613
+     2. Weights data distribution initialization, Base functions: 50 |     -------------------------PASS
+        score (less is better) = 4.9155501703269096/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 50 |     ------------------PASS
+        score (less is better) = 4.660362772773439/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 50 |     ----------PASS
+        score (less is better) = 5.50505421226221/1.613
+
+
+ [main.py:44]
+2024-07-01 20:59:18,457 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 50 |     ----------------------------PASS
+        score (less is better) = 4.590561320409099/1.613
+     2. Weights data distribution initialization, Base functions: 50 |     -------------------------PASS
+        score (less is better) = 6.834419232256892/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 50 |     ------------------PASS
+        score (less is better) = 6.397580541883098/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 50 |     ----------PASS
+        score (less is better) = 7.093539327153795/1.613
+
+
+ [main.py:44]
+2024-07-01 20:59:22,118 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 50 |     ----------------------------PASS
+        score (less is better) = 4.590561320409099/1.613
+     2. Weights data distribution initialization, Base functions: 50 |     -------------------------PASS
+        score (less is better) = 9.333364632411236/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 50 |     ------------------PASS
+        score (less is better) = 8.668062315949458/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 50 |     ----------PASS
+        score (less is better) = 9.240530365732075/1.613
+
+
+ [main.py:44]
+2024-07-01 20:59:25,775 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 50 |     ----------------------------PASS
+        score (less is better) = 4.590561320409099/1.613
+     2. Weights data distribution initialization, Base functions: 50 |     -------------------------PASS
+        score (less is better) = 12.88690587920748/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 50 |     ------------------PASS
+        score (less is better) = 11.832506813530685/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 50 |     ----------PASS
+        score (less is better) = 12.292994323061293/1.613
+
+
+ [main.py:44]
+2024-07-01 20:59:29,414 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 50 |     ----------------------------PASS
+        score (less is better) = 4.590561320409099/1.613
+     2. Weights data distribution initialization, Base functions: 50 |     -------------------------PASS
+        score (less is better) = 20.387989914755547/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 50 |     ------------------PASS
+        score (less is better) = 17.323535112147603/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 50 |     ----------PASS
+        score (less is better) = 17.567854430357396/1.613
+
+
+ [main.py:44]
+2024-07-01 21:00:24,520 - my_logger - INFO - ---BASIC TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 1 |     ------------------------------------------------PASS
+     2. Data dimensions: 10, Base functions: 20 |     ----------------------------------------------PASS
+
+
+ [main.py:19]
+2024-07-01 21:00:26,489 - my_logger - INFO - ---CORE TEST RESULTS---
+
+     1. Bias lineal initialization, Base functions: 100 |     --------------------------------------PASS
+        score (less is better) = 1.613185178507015/1.613
+
+
+ [main.py:26]
+2024-07-01 21:00:27,334 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 10 |     ----------------------------PASS
+        score (less is better) = 21.10794407218955/1.613
+     2. Weights data distribution initialization, Base functions: 10 |     -------------------------PASS
+        score (less is better) = 11.310335243782786/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 10 |     ------------------PASS
+        score (less is better) = 11.27438462466287/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 10 |     ----------PASS
+        score (less is better) = 11.262729589912736/1.613
+
+
+ [main.py:35]
+2024-07-01 21:00:28,808 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 20 |     ----------------------------PASS
+        score (less is better) = 12.818134193646147/1.613
+     2. Weights data distribution initialization, Base functions: 20 |     -------------------------PASS
+        score (less is better) = 3.744947107903197/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 20 |     ------------------PASS
+        score (less is better) = 3.6397632967237956/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 20 |     ----------PASS
+        score (less is better) = 3.799764722768431/1.613
+
+
+ [main.py:35]
+2024-07-01 21:00:30,988 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 30 |     ----------------------------PASS
+        score (less is better) = 8.831066399981522/1.613
+     2. Weights data distribution initialization, Base functions: 30 |     -------------------------PASS
+        score (less is better) = 2.2343642600125726/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 30 |     ------------------PASS
+        score (less is better) = 2.3629925491920165/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 30 |     ----------PASS
+        score (less is better) = 2.9249939633957314/1.613
+
+
+ [main.py:35]
+2024-07-01 21:00:33,924 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 40 |     ----------------------------PASS
+        score (less is better) = 6.2908710483849815/1.613
+     2. Weights data distribution initialization, Base functions: 40 |     -------------------------PASS
+        score (less is better) = 1.5907740005385231/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 40 |     ------------------PASS
+        score (less is better) = 1.5744247956267179/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 40 |     ----------PASS
+        score (less is better) = 2.66099217514123/1.613
+
+
+ [main.py:35]
+2024-07-01 21:00:37,558 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 50 |     ----------------------------PASS
+        score (less is better) = 4.590561320409099/1.613
+     2. Weights data distribution initialization, Base functions: 50 |     -------------------------PASS
+        score (less is better) = 1.335361133699604/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 50 |     ------------------PASS
+        score (less is better) = 1.3130530521620123/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 50 |     ----------PASS
+        score (less is better) = 3.2502672318707235/1.613
+
+
+ [main.py:35]
+2024-07-01 21:00:42,060 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 60 |     ----------------------------PASS
+        score (less is better) = 3.7658739563321832/1.613
+     2. Weights data distribution initialization, Base functions: 60 |     -------------------------PASS
+        score (less is better) = 1.1247015540987315/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 60 |     ------------------PASS
+        score (less is better) = 1.1306056949892467/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 60 |     ----------PASS
+        score (less is better) = 3.5917687827916587/1.613
+
+
+ [main.py:35]
+2024-07-01 21:00:47,281 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 70 |     ----------------------------PASS
+        score (less is better) = 3.039502901554673/1.613
+     2. Weights data distribution initialization, Base functions: 70 |     -------------------------PASS
+        score (less is better) = 0.9567843549691921/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 70 |     ------------------PASS
+        score (less is better) = 1.0267470552253468/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 70 |     ----------PASS
+        score (less is better) = 4.242359381010702/1.613
+
+
+ [main.py:35]
+2024-07-01 21:00:50,963 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 50 |     ----------------------------PASS
+        score (less is better) = 4.590561320409099/1.613
+     2. Weights data distribution initialization, Base functions: 50 |     -------------------------PASS
+        score (less is better) = 0.6748735239078659/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 50 |     ------------------PASS
+        score (less is better) = 0.6779112376309795/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 50 |     ----------PASS
+        score (less is better) = 3.2191414389158366/1.613
+
+
+ [main.py:44]
+2024-07-01 21:00:54,661 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 50 |     ----------------------------PASS
+        score (less is better) = 4.590561320409099/1.613
+     2. Weights data distribution initialization, Base functions: 50 |     -------------------------PASS
+        score (less is better) = 1.335361133699604/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 50 |     ------------------PASS
+        score (less is better) = 1.3130530521620123/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 50 |     ----------PASS
+        score (less is better) = 3.2502672318707235/1.613
+
+
+ [main.py:44]
+2024-07-01 21:00:58,270 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 50 |     ----------------------------PASS
+        score (less is better) = 4.590561320409099/1.613
+     2. Weights data distribution initialization, Base functions: 50 |     -------------------------PASS
+        score (less is better) = 2.2436078732946485/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 50 |     ------------------PASS
+        score (less is better) = 2.1785807065694875/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 50 |     ----------PASS
+        score (less is better) = 3.567269755941533/1.613
+
+
+ [main.py:44]
+2024-07-01 21:01:01,954 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 50 |     ----------------------------PASS
+        score (less is better) = 4.590561320409099/1.613
+     2. Weights data distribution initialization, Base functions: 50 |     -------------------------PASS
+        score (less is better) = 3.4230344097600374/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 50 |     ------------------PASS
+        score (less is better) = 3.277819353005641/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 50 |     ----------PASS
+        score (less is better) = 4.31166429174582/1.613
+
+
+ [main.py:44]
+2024-07-01 21:01:05,570 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 50 |     ----------------------------PASS
+        score (less is better) = 4.590561320409099/1.613
+     2. Weights data distribution initialization, Base functions: 50 |     -------------------------PASS
+        score (less is better) = 4.9155501703269096/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 50 |     ------------------PASS
+        score (less is better) = 4.660362772773439/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 50 |     ----------PASS
+        score (less is better) = 5.50505421226221/1.613
+
+
+ [main.py:44]
+2024-07-01 21:01:09,277 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 50 |     ----------------------------PASS
+        score (less is better) = 4.590561320409099/1.613
+     2. Weights data distribution initialization, Base functions: 50 |     -------------------------PASS
+        score (less is better) = 6.834419232256892/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 50 |     ------------------PASS
+        score (less is better) = 6.397580541883098/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 50 |     ----------PASS
+        score (less is better) = 7.093539327153795/1.613
+
+
+ [main.py:44]
+2024-07-01 21:01:12,997 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 50 |     ----------------------------PASS
+        score (less is better) = 4.590561320409099/1.613
+     2. Weights data distribution initialization, Base functions: 50 |     -------------------------PASS
+        score (less is better) = 9.333364632411236/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 50 |     ------------------PASS
+        score (less is better) = 8.668062315949458/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 50 |     ----------PASS
+        score (less is better) = 9.240530365732075/1.613
+
+
+ [main.py:44]
+2024-07-01 21:01:16,635 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 50 |     ----------------------------PASS
+        score (less is better) = 4.590561320409099/1.613
+     2. Weights data distribution initialization, Base functions: 50 |     -------------------------PASS
+        score (less is better) = 12.88690587920748/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 50 |     ------------------PASS
+        score (less is better) = 11.832506813530685/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 50 |     ----------PASS
+        score (less is better) = 12.292994323061293/1.613
+
+
+ [main.py:44]
+2024-07-01 21:01:20,238 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 50 |     ----------------------------PASS
+        score (less is better) = 4.590561320409099/1.613
+     2. Weights data distribution initialization, Base functions: 50 |     -------------------------PASS
+        score (less is better) = 20.387989914755547/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 50 |     ------------------PASS
+        score (less is better) = 17.323535112147603/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 50 |     ----------PASS
+        score (less is better) = 17.567854430357396/1.613
+
+
+ [main.py:44]
+2024-07-01 22:36:35,872 - my_logger - WARNING - O2B PROYECTIONS: NAN ERROR [schmidt.py:301]
+2024-07-01 22:36:35,873 - my_logger - DEBUG - [[ 0.00000000e+00  0.00000000e+00  0.00000000e+00 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [ 3.99676354e+00  0.00000000e+00  0.00000000e+00 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [ 3.99686741e+00 -1.45084657e-04  0.00000000e+00 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ ...
+ [ 3.99137166e+00 -2.34020449e-04  1.57522942e-03 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [ 1.59139319e-38 -8.44567060e-39 -7.68088592e-39 ...             nan
+   0.00000000e+00  0.00000000e+00]
+ [ 1.57314406e-38 -1.21923061e-38  4.22663761e-39 ...             nan
+              nan  0.00000000e+00]] [schmidt.py:302]
+2024-07-01 22:36:35,874 - my_logger - WARNING - BETAS: NAN ERROR [schmidt.py:306]
+2024-07-01 22:36:36,841 - my_logger - WARNING - F2O PROYECTIONS: NAN ERROR [schmidt.py:176]
+2024-07-01 22:36:36,843 - my_logger - WARNING - SIGMAS: NAN ERROR [schmidt.py:184]
+2024-07-01 22:36:46,747 - my_logger - WARNING - O2B PROYECTIONS: NAN ERROR [schmidt.py:301]
+2024-07-01 22:36:46,748 - my_logger - DEBUG - [[ 0.00000000e+00  0.00000000e+00  0.00000000e+00 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [ 3.96781694e+00  0.00000000e+00  0.00000000e+00 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [ 3.96884394e+00 -1.43246123e-03  0.00000000e+00 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ ...
+ [ 3.91496272e+00 -2.33053765e-03  1.52306833e-02 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [ 2.27058300e-42 -1.22657973e-42 -1.12646954e-42 ...             nan
+   0.00000000e+00  0.00000000e+00]
+ [ 2.24708461e-42 -1.76612668e-42  5.69519986e-43 ...             nan
+              nan  0.00000000e+00]] [schmidt.py:302]
+2024-07-01 22:36:46,750 - my_logger - WARNING - BETAS: NAN ERROR [schmidt.py:306]
+2024-07-01 22:36:47,733 - my_logger - WARNING - F2O PROYECTIONS: NAN ERROR [schmidt.py:176]
+2024-07-01 22:36:47,735 - my_logger - WARNING - SIGMAS: NAN ERROR [schmidt.py:184]
+2024-07-01 22:55:27,508 - my_logger - WARNING - O2B PROYECTIONS: NAN ERROR [schmidt.py:301]
+2024-07-01 22:55:27,508 - my_logger - DEBUG - [[ 0.00000000e+00  0.00000000e+00  0.00000000e+00 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [ 3.47765673e-46  0.00000000e+00  0.00000000e+00 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [ 3.25003439e+00 -4.41976488e-22  0.00000000e+00 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ ...
+ [ 3.68916036e-46  2.02551269e-58 -4.68085947e-46 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [ 3.58243029e-46 -3.10940404e-66  2.63256965e-46 ...             nan
+   0.00000000e+00  0.00000000e+00]
+ [ 3.53518427e-46 -3.04871747e-66  4.09439029e-46 ...             nan
+              nan  0.00000000e+00]] [schmidt.py:302]
+2024-07-01 22:55:27,510 - my_logger - WARNING - BETAS: NAN ERROR [schmidt.py:306]
+2024-07-01 22:55:29,010 - my_logger - WARNING - F2O PROYECTIONS: NAN ERROR [schmidt.py:176]
+2024-07-01 22:55:29,012 - my_logger - WARNING - SIGMAS: NAN ERROR [schmidt.py:184]
+2024-07-01 22:55:41,264 - my_logger - WARNING - O2B PROYECTIONS: NAN ERROR [schmidt.py:301]
+2024-07-01 22:55:41,265 - my_logger - DEBUG - [[ 0.00000000e+00  0.00000000e+00  0.00000000e+00 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [ 7.53400286e-50  0.00000000e+00  0.00000000e+00 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [ 9.53632683e-01 -2.36587106e-23  0.00000000e+00 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ ...
+ [ 1.31545062e-49  2.44438952e-63 -1.68324959e-49 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [ 1.10950980e-49 -2.13070783e-71  5.26319282e-50 ...             nan
+   0.00000000e+00  0.00000000e+00]
+ [ 1.02262210e-49 -1.96118879e-71  9.74857061e-50 ...             nan
+              nan  0.00000000e+00]] [schmidt.py:302]
+2024-07-01 22:55:41,267 - my_logger - WARNING - BETAS: NAN ERROR [schmidt.py:306]
+2024-07-01 22:55:42,747 - my_logger - WARNING - F2O PROYECTIONS: NAN ERROR [schmidt.py:176]
+2024-07-01 22:55:42,751 - my_logger - WARNING - SIGMAS: NAN ERROR [schmidt.py:184]
+2024-07-01 22:55:51,619 - my_logger - WARNING - O2B PROYECTIONS: NAN ERROR [schmidt.py:301]
+2024-07-01 22:55:51,620 - my_logger - DEBUG - [[ 0.00000000e+00  0.00000000e+00  0.00000000e+00 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [ 5.72042405e-54  0.00000000e+00  0.00000000e+00 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [ 2.09531743e-02 -5.35791708e-27  0.00000000e+00 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ ...
+ [ 1.32433041e-52  1.89916540e-68 -6.53971749e-53 ...  0.00000000e+00
+   0.00000000e+00  0.00000000e+00]
+ [ 4.29620550e-53 -7.58408733e-77  1.28641216e-53 ...             nan
+   0.00000000e+00  0.00000000e+00]
+ [ 2.19846943e-53 -3.87845364e-77  2.55606499e-53 ...             nan
+              nan  0.00000000e+00]] [schmidt.py:302]
+2024-07-01 22:55:51,622 - my_logger - WARNING - BETAS: NAN ERROR [schmidt.py:306]
+2024-07-01 22:55:53,151 - my_logger - WARNING - F2O PROYECTIONS: NAN ERROR [schmidt.py:176]
+2024-07-01 22:55:53,154 - my_logger - WARNING - SIGMAS: NAN ERROR [schmidt.py:184]
+2024-07-01 22:56:00,033 - my_logger - WARNING - Zero in Proyection of i: 2 over j: 45 [schmidt.py:255]
+2024-07-01 22:56:00,034 - my_logger - WARNING - Zero in Proyection of i: 2 over j: 45 [schmidt.py:255]
+2024-07-01 22:56:00,538 - my_logger - WARNING - Zero in Proyection of i: 55 over j: 62 [schmidt.py:255]
+2024-07-01 22:56:00,539 - my_logger - WARNING - Zero in Proyection of i: 55 over j: 62 [schmidt.py:255]
+2024-07-01 22:56:13,870 - my_logger - WARNING - Zero in Proyection of i: 2 over j: 45 [schmidt.py:255]
+2024-07-01 22:56:13,870 - my_logger - WARNING - Zero in Proyection of i: 2 over j: 45 [schmidt.py:255]
+2024-07-01 22:56:14,380 - my_logger - WARNING - Zero in Proyection of i: 55 over j: 62 [schmidt.py:255]
+2024-07-01 22:56:14,381 - my_logger - WARNING - Zero in Proyection of i: 55 over j: 62 [schmidt.py:255]
+2024-07-01 22:56:29,550 - my_logger - WARNING - Zero in Proyection of i: 2 over j: 45 [schmidt.py:255]
+2024-07-01 22:56:29,550 - my_logger - WARNING - Zero in Proyection of i: 2 over j: 45 [schmidt.py:255]
+2024-07-01 22:56:30,055 - my_logger - WARNING - Zero in Proyection of i: 55 over j: 62 [schmidt.py:255]
+2024-07-01 22:56:30,055 - my_logger - WARNING - Zero in Proyection of i: 55 over j: 62 [schmidt.py:255]
+2024-07-01 22:56:48,701 - my_logger - WARNING - Zero in Proyection of i: 5 over j: 17 [schmidt.py:255]
+2024-07-01 22:56:48,701 - my_logger - WARNING - Zero in Proyection of i: 5 over j: 17 [schmidt.py:255]
+2024-07-01 22:56:49,289 - my_logger - WARNING - Zero in Proyection of i: 40 over j: 125 [schmidt.py:255]
+2024-07-01 22:56:49,289 - my_logger - WARNING - Zero in Proyection of i: 40 over j: 125 [schmidt.py:255]
+2024-07-01 22:56:49,290 - my_logger - WARNING - Zero in Proyection of i: 40 over j: 125 [schmidt.py:255]
+2024-07-01 22:56:49,290 - my_logger - WARNING - Zero in Proyection of i: 40 over j: 125 [schmidt.py:255]
+2024-07-01 22:56:49,446 - my_logger - WARNING - Zero in Proyection of i: 53 over j: 60 [schmidt.py:255]
+2024-07-01 22:56:49,446 - my_logger - WARNING - Zero in Proyection of i: 53 over j: 60 [schmidt.py:255]
+2024-07-01 22:56:49,683 - my_logger - WARNING - Zero in Proyection of i: 76 over j: 123 [schmidt.py:255]
+2024-07-01 22:56:49,684 - my_logger - WARNING - Zero in Proyection of i: 76 over j: 123 [schmidt.py:255]
+2024-07-01 22:57:01,117 - my_logger - WARNING - Zero in Proyection of i: 5 over j: 17 [schmidt.py:255]
+2024-07-01 22:57:01,118 - my_logger - WARNING - Zero in Proyection of i: 5 over j: 17 [schmidt.py:255]
+2024-07-01 22:57:01,705 - my_logger - WARNING - Zero in Proyection of i: 40 over j: 125 [schmidt.py:255]
+2024-07-01 22:57:01,705 - my_logger - WARNING - Zero in Proyection of i: 40 over j: 125 [schmidt.py:255]
+2024-07-01 22:57:01,706 - my_logger - WARNING - Zero in Proyection of i: 40 over j: 125 [schmidt.py:255]
+2024-07-01 22:57:01,706 - my_logger - WARNING - Zero in Proyection of i: 40 over j: 125 [schmidt.py:255]
+2024-07-01 22:57:01,861 - my_logger - WARNING - Zero in Proyection of i: 53 over j: 60 [schmidt.py:255]
+2024-07-01 22:57:01,862 - my_logger - WARNING - Zero in Proyection of i: 53 over j: 60 [schmidt.py:255]
+2024-07-01 22:57:02,099 - my_logger - WARNING - Zero in Proyection of i: 76 over j: 123 [schmidt.py:255]
+2024-07-01 22:57:02,099 - my_logger - WARNING - Zero in Proyection of i: 76 over j: 123 [schmidt.py:255]

@@ -28,8 +28,18 @@ else:
     log.warning(log_msg)
     exit()
 
-for n in range(5,80,5):
-    (all_okay, log_msg) = run_distribution_test(Istar, log, n)
+w_coef = 0.8
+for n in range(10,80,10):
+    (all_okay, log_msg) = run_distribution_test(Istar, log, n, w_coef)
+    if all_okay == True:
+        log.info(log_msg)
+    else:
+        log.warning(log_msg)
+        exit()
+
+n = 50
+for w_coef in np.linspace(0.9,0.1,9):
+    (all_okay, log_msg) = run_distribution_test(Istar, log, n, w_coef)
     if all_okay == True:
         log.info(log_msg)
     else:

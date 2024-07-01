@@ -206,6 +206,11 @@ class Istar:
                 first_layer_output[n] = np.prod(1/(1+np.abs(self.weights[n,:]*(inputs[d,:] - self.bias[n,:]))))
 
             network_output[d] = np.sum(first_layer_output*self.sigma)
+            if network_output[d] > 5:
+                network_output[d] = 5
+            if network_output[d] < -5:
+                network_output[d] = -5
+
 
         return network_output
 
