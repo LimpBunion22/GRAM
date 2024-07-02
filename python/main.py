@@ -6,8 +6,8 @@ import copy
 from source.common.logger import create_logger
 from source.core.schmidt import Istar
 from source.tests.basic_tests import *
-from source.plots import dibujar_vectores
-from source.evaluations import evaluate_base,evaluate_orts
+from python.source.common.plots import dibujar_vectores
+from python.source.common.evaluations import evaluate_base,evaluate_orts
 
 
 

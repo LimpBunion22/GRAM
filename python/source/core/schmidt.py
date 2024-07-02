@@ -40,7 +40,7 @@ class Istar:
             if not isinstance(val, (int, float)):
                 self.logger.error('Unsupported weight initialization value type')
                 return
-            self.weights = val*(1-np.random.rand(self.n_base_funcs,self.n_dim))
+            self.weights = val*(1.01-np.random.rand(self.n_base_funcs,self.n_dim))
         elif  method == "external":
             if not (isinstance(val, np.ndarray) and val.shape == (self.n_base_funcs,self.n_dim)):
                 self.logger.error('Unsupported weight initialization value type')
@@ -253,7 +253,8 @@ class Istar:
                                 # msg += "\n b1 = "+str(b1)
                                 # msg += "\n b2 = "+str(b2)
                                 self.logger.warning(msg)
-                                w2s += 0.1
+                                w2s += 1e-5
+                                w1s -= 1e-5
                                 den = -1 + w1s/w2s - w1s*b2 + w1s*b1
                             num2 = 1/den
                             num1 = w1s/w2s*num2

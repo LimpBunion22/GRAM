@@ -2562,3 +2562,583 @@ IndexError: invalid index to scalar variable.
 2024-07-01 22:57:01,862 - my_logger - WARNING - Zero in Proyection of i: 53 over j: 60 [schmidt.py:255]
 2024-07-01 22:57:02,099 - my_logger - WARNING - Zero in Proyection of i: 76 over j: 123 [schmidt.py:255]
 2024-07-01 22:57:02,099 - my_logger - WARNING - Zero in Proyection of i: 76 over j: 123 [schmidt.py:255]
+2024-07-02 15:14:32,016 - my_logger - WARNING - Zero in Proyection of i: 5 over j: 17 [schmidt.py:255]
+2024-07-02 15:14:32,017 - my_logger - WARNING - Zero in Proyection of i: 5 over j: 17 [schmidt.py:255]
+2024-07-02 15:14:33,017 - my_logger - WARNING - Zero in Proyection of i: 40 over j: 125 [schmidt.py:255]
+2024-07-02 15:14:33,018 - my_logger - WARNING - Zero in Proyection of i: 40 over j: 125 [schmidt.py:255]
+2024-07-02 15:14:33,018 - my_logger - WARNING - Zero in Proyection of i: 40 over j: 125 [schmidt.py:255]
+2024-07-02 15:14:33,018 - my_logger - WARNING - Zero in Proyection of i: 40 over j: 125 [schmidt.py:255]
+2024-07-02 15:14:33,280 - my_logger - WARNING - Zero in Proyection of i: 53 over j: 60 [schmidt.py:255]
+2024-07-02 15:14:33,281 - my_logger - WARNING - Zero in Proyection of i: 53 over j: 60 [schmidt.py:255]
+2024-07-02 15:14:33,681 - my_logger - WARNING - Zero in Proyection of i: 76 over j: 123 [schmidt.py:255]
+2024-07-02 15:14:33,681 - my_logger - WARNING - Zero in Proyection of i: 76 over j: 123 [schmidt.py:255]
+2024-07-02 15:15:10,105 - my_logger - WARNING - Zero in Proyection of i: 5 over j: 17 [schmidt.py:255]
+2024-07-02 15:15:10,105 - my_logger - WARNING - Zero in Proyection of i: 5 over j: 17 [schmidt.py:255]
+2024-07-02 15:15:10,696 - my_logger - WARNING - Zero in Proyection of i: 40 over j: 125 [schmidt.py:255]
+2024-07-02 15:15:10,696 - my_logger - WARNING - Zero in Proyection of i: 40 over j: 125 [schmidt.py:255]
+2024-07-02 15:15:10,696 - my_logger - WARNING - Zero in Proyection of i: 40 over j: 125 [schmidt.py:255]
+2024-07-02 15:15:10,697 - my_logger - WARNING - Zero in Proyection of i: 40 over j: 125 [schmidt.py:255]
+2024-07-02 15:15:10,851 - my_logger - WARNING - Zero in Proyection of i: 53 over j: 60 [schmidt.py:255]
+2024-07-02 15:15:10,852 - my_logger - WARNING - Zero in Proyection of i: 53 over j: 60 [schmidt.py:255]
+2024-07-02 15:15:11,090 - my_logger - WARNING - Zero in Proyection of i: 76 over j: 123 [schmidt.py:255]
+2024-07-02 15:15:11,091 - my_logger - WARNING - Zero in Proyection of i: 76 over j: 123 [schmidt.py:255]
+2024-07-02 16:24:39,498 - my_logger - WARNING - O2B PROYECTIONS: NAN ERROR [schmidt.py:302]
+2024-07-02 16:24:39,498 - my_logger - DEBUG - [[ 0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00]
+ [ 6.90097156e-01  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00]
+ [ 5.59207274e-01 -4.69502240e-02  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00]
+ [ 6.37031083e-01 -2.37511174e-02  8.94526374e-02  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00]
+ [ 7.31313745e-01  2.74706248e-01 -1.97005051e-02 -3.58643976e-02
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00]
+ [ 6.25579896e-01 -4.25277159e-02  1.27464360e-01  2.46300779e-02
+   6.14709742e-03  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00]
+ [ 5.28665317e-01 -3.96433708e-02  1.66734318e-01 -1.36307642e-03
+  -4.71592117e-03 -8.44864922e-03  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00]
+ [ 4.77845829e-01 -4.59267566e-02  1.53692518e-01 -1.08738690e-02
+   3.76096198e-03 -2.35541217e-02 -7.50778069e-03  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00]
+ [ 7.65642105e-01  3.62869162e-02 -3.84493942e-02 -4.43171805e-02
+   2.57806579e-02  5.92646299e-03  3.14505203e-03  2.38478482e-03
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00]
+ [ 6.56880499e-01 -5.07135627e-02  8.53092564e-02  1.95872113e-02
+   1.14990285e-02  1.39930900e-02 -1.67049802e-02  1.09301576e-02
+  -4.15787117e-03  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00]
+ [ 7.11049292e-01  2.38792155e-01 -7.13345167e-03 -1.93561006e-03
+   1.04688985e-02  2.83784068e-03  3.53977951e-03 -2.44883697e-03
+   1.91960763e-02 -1.22090806e-02  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00]
+ [ 6.73394080e-01 -2.28627289e-02  7.67853221e-02  4.02284869e-02
+   6.85775832e-03  3.27359691e-02  7.88311552e-03 -4.03053866e-03
+   3.57187952e-03 -5.01788296e-03  3.83547262e-03  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00]
+ [ 6.44191074e-01  2.69965377e-01  7.57201159e-03  9.48323099e-03
+  -2.10631469e-02  5.04956270e-04 -1.86911275e-03  2.30273701e-03
+   8.72809475e-04  3.91569697e-03 -6.62596324e-03 -1.11409055e-04
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00]
+ [ 6.12062068e-01 -5.75573790e-02  1.33834673e-01  3.19647316e-03
+   9.02994879e-03  2.08078719e-02 -1.47726489e-02  9.20683973e-03
+   2.79101197e-04  1.83220203e-02 -3.34498557e-03 -1.05852264e-02
+   5.88090969e-04  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00]
+ [ 5.59672265e-01 -4.16803498e-02  1.36108962e-01  3.88812607e-02
+   4.49852426e-03 -8.39633590e-03 -2.22111250e-02  3.00449297e-02
+  -2.06349101e-03  1.31241668e-02  3.12995578e-03 -4.99338865e-03
+  -1.85636629e-03 -3.05208170e-03  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00]
+ [ 7.42611514e-01  1.25157195e-02 -2.16115636e-02 -2.10231007e-02
+   8.61837006e-04 -5.32006364e-03 -2.20152355e-03  2.57839230e-03
+   1.75297241e-02  4.88113409e-03 -5.73736793e-03 -1.08210818e-02
+  -1.01509055e-03  6.86441387e-04 -1.31660098e-03  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00]
+ [ 6.71288449e-01 -2.61945777e-02  5.98417578e-02  4.43694169e-02
+   3.72347567e-03 -1.25513568e-03 -4.59221863e-03  9.60820560e-04
+  -8.03628066e-03  8.64466927e-03 -4.45877455e-04 -1.60471695e-03
+   6.83170730e-04 -3.99608413e-04 -5.69418493e-03 -2.77778078e-03
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00]
+ [ 5.66705242e-01 -4.59617976e-02  1.47126415e-01 -3.41860703e-02
+   3.78234410e-03  2.11196239e-02  4.07385783e-02 -2.79289148e-03
+   5.97951298e-04  6.21970328e-03 -1.67876097e-03  1.33419772e-02
+   9.62180083e-04  3.64320243e-03 -1.53474666e-02 -8.88787875e-04
+   1.25853302e-03  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00]
+ [ 4.97247492e-01 -2.90314063e-02  1.66154379e-01  1.71727932e-03
+  -1.55085526e-02 -6.99492796e-03  3.01222513e-02  3.27924775e-03
+   6.46490621e-04  3.58404735e-03  3.96422606e-03  8.40978881e-03
+  -2.95380825e-04 -7.43880546e-03  1.06799770e-02 -2.30423200e-03
+   3.04810817e-04  7.16111495e-04  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00]
+ [ 7.06037154e-01  2.77189614e-01 -5.89515934e-03 -1.10105856e-02
+   2.69345325e-02  2.70331917e-03  2.41957129e-03 -1.16038796e-03
+   5.03099263e-03 -2.01313995e-03  7.71302312e-03  3.96386344e-03
+  -8.42548194e-04 -1.44662014e-03  1.79613219e-03 -3.89690778e-03
+  -2.42974122e-03  3.84879327e-05  3.63267591e-03  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00]
+ [ 6.94707821e-01 -4.74054071e-02  7.73099902e-02 -2.03519418e-02
+   3.93840625e-02  6.07978870e-02  7.59722510e-03  4.73441888e-03
+   3.52933293e-02  6.59377762e-03 -6.22450933e-03  2.90294373e-02
+   3.69421871e-03  1.61515204e-02 -6.23890609e-03 -7.25183987e-03
+  -7.32955774e-03  1.24497796e-02  1.34832462e-03  1.36986348e-02
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00]
+ [ 4.42571862e-01 -2.16787917e-02  1.56388338e-01  2.25337321e-02
+  -2.19328279e-02 -1.57978385e-02 -3.26539801e-03  3.61416459e-02
+   9.42312033e-03 -9.40392115e-03  3.12507381e-03  8.45474786e-03
+   1.07171528e-02 -1.48136152e-02  1.47682339e-02 -5.49901502e-03
+  -7.87030300e-03 -5.16031383e-03  1.87267271e-02  1.14223990e-03
+   6.79469377e-03  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00]
+ [ 7.65904485e-01  2.43019487e-01 -5.32977564e-02 -8.71359062e-02
+   9.62322094e-02 -4.69764600e-03 -9.42560822e-03  1.18520331e-02
+   3.59183478e+01  3.59679454e+00 -1.40093208e+01 -2.07353828e+00
+  -3.47947419e+00 -1.01166688e+01  7.55562041e-01 -4.35033896e+01
+   1.00287309e+01 -2.32153048e+00 -7.30364068e+00 -1.74352719e+01
+  -3.60650129e+01 -6.01636368e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00]
+ [ 5.37852661e-01 -5.09677048e-02  1.43902623e-01  1.18414777e-02
+   7.84043623e-03 -1.01574742e-02 -2.68352700e-02  4.33440873e-02
+  -1.32014957e-03  9.42767191e-03 -2.13620457e-04 -8.75898751e-03
+  -8.09256909e-04  5.75578942e-03  1.79383368e-02 -2.13548335e-04
+   1.77358731e-03  1.21656853e-03  4.73610163e-04 -2.35253668e-04
+  -1.02961201e-03 -6.72281251e-05             nan  0.00000000e+00
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00]
+ [ 6.31860712e-01 -5.58920808e-02  1.31315680e-01 -2.11478698e-02
+   1.16205924e-02  4.34002467e-02  1.36238431e-03 -1.73842070e-04
+   7.12870283e-03  6.36490995e-03 -3.51342710e-03  9.28804862e-03
+   1.15324409e-03  9.41957702e-03 -1.29524478e-02 -6.81508720e-04
+  -5.31958752e-03  1.12783888e-02 -1.75323228e-03  3.03219611e-03
+   5.56266420e-03  3.65424786e-03             nan             nan
+   0.00000000e+00  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00]
+ [ 7.07839919e-01 -8.89382895e-03  2.99017519e-02  2.27937882e-02
+   3.97607796e-03  1.39117446e-02  4.71182359e-03 -3.23097644e-03
+  -5.79099144e-04 -6.39176510e-03  4.20366773e-03  1.89557737e-02
+   4.13681787e-04 -3.94678769e-04 -3.15947134e-04 -7.02475842e-03
+   7.29100284e-03 -3.27217113e-04 -9.92970237e-04  1.59235824e-04
+  -1.68156135e-03  9.47648254e-04             nan             nan
+              nan  0.00000000e+00  0.00000000e+00  0.00000000e+00
+   0.00000000e+00]
+ [ 6.68003773e-01  2.46338554e-01  3.33809181e-03  1.20285825e-02
+  -2.32722634e-02  2.52521927e-03  1.24901310e-03 -4.09314603e-04
+   1.42413084e-02 -5.21579130e-03  2.46005211e-02  4.18745135e-04
+   2.56837059e-02 -1.37544929e-03  1.07397417e-03 -7.64484874e-04
+   5.09963401e-04  4.93895074e-04  7.95017090e-05 -3.30952042e-03
+   3.22533697e-03  5.33336885e-03             nan             nan
+              nan             nan  0.00000000e+00  0.00000000e+00
+   0.00000000e+00]
+ [ 7.27012623e-01 -1.97492780e-02  1.45687195e-02 -4.24096830e-03
+   1.44170851e-02  1.89849498e-02  2.19717203e-03  2.15010306e-03
+   1.70673247e-02  7.46798893e-03 -2.71536691e-03  1.91337562e-02
+   1.48363676e-03  8.07513698e-03 -5.52814997e-03 -4.41366292e-03
+   1.71850255e-03  1.89829163e-03 -6.05065052e-04  3.37168905e-03
+   9.68209144e-03  8.46276638e-04             nan             nan
+              nan             nan             nan  0.00000000e+00
+   0.00000000e+00]
+ [ 6.90065409e-01 -5.32634785e-02  4.91932340e-02  5.48095517e-03
+   1.21966393e-02  9.64424244e-03 -1.25017928e-02  1.21099868e-02
+   1.83367974e-02  3.93599481e-02 -1.61352800e-02 -8.49430267e-03
+   3.36994879e-03  1.31676893e-02 -1.97339265e-02  1.69875126e-02
+   6.42826195e-03  1.66455926e-03 -7.51059473e-04  3.21810736e-03
+   7.91857724e-03 -2.16216270e-03             nan             nan
+              nan             nan             nan             nan
+   0.00000000e+00]] [schmidt.py:303]
+2024-07-02 16:24:39,517 - my_logger - WARNING - BETAS: NAN ERROR [schmidt.py:307]
+2024-07-02 16:24:39,982 - my_logger - WARNING - F2O PROYECTIONS: NAN ERROR [schmidt.py:176]
+2024-07-02 16:24:39,982 - my_logger - WARNING - SIGMAS: NAN ERROR [schmidt.py:184]
+2024-07-02 16:32:23,146 - my_logger - WARNING - O2B PROYECTIONS: NAN ERROR [schmidt.py:302]
+2024-07-02 16:32:23,147 - my_logger - DEBUG - [[ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ [ 0.1248925   0.          0.         ...  0.          0.
+   0.        ]
+ [ 0.15911389 -0.00790607  0.         ...  0.          0.
+   0.        ]
+ ...
+ [ 0.06945441 -0.00634023  0.06510452 ...  0.          0.
+   0.        ]
+ [ 0.20639154  0.15315399  0.00766601 ...         nan  0.
+   0.        ]
+ [ 0.10240992 -0.01237053  0.07598276 ...         nan         nan
+   0.        ]] [schmidt.py:303]
+2024-07-02 16:32:23,148 - my_logger - WARNING - BETAS: NAN ERROR [schmidt.py:307]
+2024-07-02 16:32:23,930 - my_logger - WARNING - F2O PROYECTIONS: NAN ERROR [schmidt.py:176]
+2024-07-02 16:32:23,931 - my_logger - WARNING - SIGMAS: NAN ERROR [schmidt.py:184]
+2024-07-02 16:34:53,559 - my_logger - WARNING - O2B PROYECTIONS: NAN ERROR [schmidt.py:302]
+2024-07-02 16:34:53,560 - my_logger - DEBUG - [[ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ [ 0.09213315  0.          0.         ...  0.          0.
+   0.        ]
+ [ 0.07613551 -0.00106158  0.         ...  0.          0.
+   0.        ]
+ ...
+ [ 0.06679143  0.00091859  0.06918123 ...  0.          0.
+   0.        ]
+ [ 0.07414695  0.08130923  0.00046437 ...         nan  0.
+   0.        ]
+ [ 0.08005734 -0.00341193  0.07040016 ...         nan         nan
+   0.        ]] [schmidt.py:303]
+2024-07-02 16:34:53,562 - my_logger - WARNING - BETAS: NAN ERROR [schmidt.py:307]
+2024-07-02 16:34:54,349 - my_logger - WARNING - F2O PROYECTIONS: NAN ERROR [schmidt.py:176]
+2024-07-02 16:34:54,350 - my_logger - WARNING - SIGMAS: NAN ERROR [schmidt.py:184]
+2024-07-02 16:35:02,518 - my_logger - WARNING - O2B PROYECTIONS: NAN ERROR [schmidt.py:302]
+2024-07-02 16:35:02,518 - my_logger - DEBUG - [[ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ [ 0.09213315  0.          0.         ...  0.          0.
+   0.        ]
+ [ 0.07613551 -0.00106158  0.         ...  0.          0.
+   0.        ]
+ ...
+ [ 0.06679143  0.00091859  0.06918123 ...  0.          0.
+   0.        ]
+ [ 0.07414695  0.08130923  0.00046437 ...         nan  0.
+   0.        ]
+ [ 0.08005734 -0.00341193  0.07040016 ...         nan         nan
+   0.        ]] [schmidt.py:303]
+2024-07-02 16:35:02,520 - my_logger - WARNING - BETAS: NAN ERROR [schmidt.py:307]
+2024-07-02 16:35:03,313 - my_logger - WARNING - F2O PROYECTIONS: NAN ERROR [schmidt.py:176]
+2024-07-02 16:35:03,315 - my_logger - WARNING - SIGMAS: NAN ERROR [schmidt.py:184]
+2024-07-02 16:44:09,256 - my_logger - INFO - ---BASIC TEST RESULTS---
+
+     1. Data dimensions: 1, Base functions: 1 |     ------------------------------------------------PASS
+     2. Data dimensions: 10, Base functions: 20 |     ----------------------------------------------PASS
+
+
+ [main.py:19]
+2024-07-02 16:44:11,275 - my_logger - INFO - ---CORE TEST RESULTS---
+
+     1. Bias lineal initialization, Base functions: 100 |     --------------------------------------PASS
+        score (less is better) = 1.613185178507015/1.613
+
+
+ [main.py:26]
+2024-07-02 16:44:12,124 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 10 |     ----------------------------PASS
+        score (less is better) = 21.10794407218955/1.613
+     2. Weights data distribution initialization, Base functions: 10 |     -------------------------PASS
+        score (less is better) = 11.310335243782786/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 10 |     ------------------PASS
+        score (less is better) = 11.27438462466287/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 10 |     ----------PASS
+        score (less is better) = 11.262729589912736/1.613
+
+
+ [main.py:35]
+2024-07-02 16:44:13,609 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 20 |     ----------------------------PASS
+        score (less is better) = 12.818134193646147/1.613
+     2. Weights data distribution initialization, Base functions: 20 |     -------------------------PASS
+        score (less is better) = 3.744947107903197/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 20 |     ------------------PASS
+        score (less is better) = 3.6397632967237956/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 20 |     ----------PASS
+        score (less is better) = 3.799764722768431/1.613
+
+
+ [main.py:35]
+2024-07-02 16:44:15,783 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 30 |     ----------------------------PASS
+        score (less is better) = 8.831066399981522/1.613
+     2. Weights data distribution initialization, Base functions: 30 |     -------------------------PASS
+        score (less is better) = 2.2343642600125726/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 30 |     ------------------PASS
+        score (less is better) = 2.3629925491920165/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 30 |     ----------PASS
+        score (less is better) = 2.9249939633957314/1.613
+
+
+ [main.py:35]
+2024-07-02 16:44:18,655 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 40 |     ----------------------------PASS
+        score (less is better) = 6.2908710483849815/1.613
+     2. Weights data distribution initialization, Base functions: 40 |     -------------------------PASS
+        score (less is better) = 1.5907740005385231/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 40 |     ------------------PASS
+        score (less is better) = 1.5744247956267179/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 40 |     ----------PASS
+        score (less is better) = 2.66099217514123/1.613
+
+
+ [main.py:35]
+2024-07-02 16:44:22,318 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 50 |     ----------------------------PASS
+        score (less is better) = 4.590561320409099/1.613
+     2. Weights data distribution initialization, Base functions: 50 |     -------------------------PASS
+        score (less is better) = 1.335361133699604/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 50 |     ------------------PASS
+        score (less is better) = 1.3130530521620123/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 50 |     ----------PASS
+        score (less is better) = 3.2502672318707235/1.613
+
+
+ [main.py:35]
+2024-07-02 16:44:26,761 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 60 |     ----------------------------PASS
+        score (less is better) = 3.7658739563321832/1.613
+     2. Weights data distribution initialization, Base functions: 60 |     -------------------------PASS
+        score (less is better) = 1.1247015540987315/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 60 |     ------------------PASS
+        score (less is better) = 1.1306056949892467/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 60 |     ----------PASS
+        score (less is better) = 3.5917687827916587/1.613
+
+
+ [main.py:35]
+2024-07-02 16:44:32,055 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 70 |     ----------------------------PASS
+        score (less is better) = 3.039502901554673/1.613
+     2. Weights data distribution initialization, Base functions: 70 |     -------------------------PASS
+        score (less is better) = 0.9567843549691921/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 70 |     ------------------PASS
+        score (less is better) = 1.0267470552253468/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 70 |     ----------PASS
+        score (less is better) = 4.242359381010702/1.613
+
+
+ [main.py:35]
+2024-07-02 16:44:35,742 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 50 |     ----------------------------PASS
+        score (less is better) = 4.590561320409099/1.613
+     2. Weights data distribution initialization, Base functions: 50 |     -------------------------PASS
+        score (less is better) = 0.6748735239078659/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 50 |     ------------------PASS
+        score (less is better) = 0.6779112376309795/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 50 |     ----------PASS
+        score (less is better) = 3.2191414389158366/1.613
+
+
+ [main.py:44]
+2024-07-02 16:44:39,403 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 50 |     ----------------------------PASS
+        score (less is better) = 4.590561320409099/1.613
+     2. Weights data distribution initialization, Base functions: 50 |     -------------------------PASS
+        score (less is better) = 1.335361133699604/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 50 |     ------------------PASS
+        score (less is better) = 1.3130530521620123/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 50 |     ----------PASS
+        score (less is better) = 3.2502672318707235/1.613
+
+
+ [main.py:44]
+2024-07-02 16:44:43,101 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 50 |     ----------------------------PASS
+        score (less is better) = 4.590561320409099/1.613
+     2. Weights data distribution initialization, Base functions: 50 |     -------------------------PASS
+        score (less is better) = 2.2436078732946485/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 50 |     ------------------PASS
+        score (less is better) = 2.1785807065694875/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 50 |     ----------PASS
+        score (less is better) = 3.567269755941533/1.613
+
+
+ [main.py:44]
+2024-07-02 16:44:46,784 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 50 |     ----------------------------PASS
+        score (less is better) = 4.590561320409099/1.613
+     2. Weights data distribution initialization, Base functions: 50 |     -------------------------PASS
+        score (less is better) = 3.4230344097600374/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 50 |     ------------------PASS
+        score (less is better) = 3.277819353005641/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 50 |     ----------PASS
+        score (less is better) = 4.31166429174582/1.613
+
+
+ [main.py:44]
+2024-07-02 16:44:50,484 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 50 |     ----------------------------PASS
+        score (less is better) = 4.590561320409099/1.613
+     2. Weights data distribution initialization, Base functions: 50 |     -------------------------PASS
+        score (less is better) = 4.9155501703269096/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 50 |     ------------------PASS
+        score (less is better) = 4.660362772773439/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 50 |     ----------PASS
+        score (less is better) = 5.50505421226221/1.613
+
+
+ [main.py:44]
+2024-07-02 16:44:54,163 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 50 |     ----------------------------PASS
+        score (less is better) = 4.590561320409099/1.613
+     2. Weights data distribution initialization, Base functions: 50 |     -------------------------PASS
+        score (less is better) = 6.834419232256892/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 50 |     ------------------PASS
+        score (less is better) = 6.397580541883098/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 50 |     ----------PASS
+        score (less is better) = 7.093539327153795/1.613
+
+
+ [main.py:44]
+2024-07-02 16:44:57,848 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 50 |     ----------------------------PASS
+        score (less is better) = 4.590561320409099/1.613
+     2. Weights data distribution initialization, Base functions: 50 |     -------------------------PASS
+        score (less is better) = 9.333364632411236/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 50 |     ------------------PASS
+        score (less is better) = 8.668062315949458/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 50 |     ----------PASS
+        score (less is better) = 9.240530365732075/1.613
+
+
+ [main.py:44]
+2024-07-02 16:45:01,530 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 50 |     ----------------------------PASS
+        score (less is better) = 4.590561320409099/1.613
+     2. Weights data distribution initialization, Base functions: 50 |     -------------------------PASS
+        score (less is better) = 12.88690587920748/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 50 |     ------------------PASS
+        score (less is better) = 11.832506813530685/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 50 |     ----------PASS
+        score (less is better) = 12.23112483684063/1.613
+
+
+ [main.py:44]
+2024-07-02 16:45:05,177 - my_logger - INFO - ---DISTRIBUTION TEST RESULTS---
+
+     1. Bias data distribution initialization, Base functions: 50 |     ----------------------------PASS
+        score (less is better) = 4.590561320409099/1.613
+     2. Weights data distribution initialization, Base functions: 50 |     -------------------------PASS
+        score (less is better) = 19.975399841805057/1.613
+     3. Bias & Weights data distribution initialization, Base functions: 50 |     ------------------PASS
+        score (less is better) = 17.087166222934542/1.613
+     4. Bias & Weights & Areas data distribution initialization, Base functions: 50 |     ----------PASS
+        score (less is better) = 13.576899723686884/1.613
+
+
+ [main.py:44]
+2024-07-02 17:51:18,671 - my_logger - WARNING - F2B PROYECTIONS: NAN ERROR [schmidt.py:169]
+2024-07-02 17:51:18,673 - my_logger - WARNING - F2O PROYECTIONS: NAN ERROR [schmidt.py:176]
+2024-07-02 17:51:18,677 - my_logger - WARNING - SIGMAS: NAN ERROR [schmidt.py:184]
+2024-07-02 18:08:59,920 - my_logger - WARNING - F2B PROYECTIONS: NAN ERROR [schmidt.py:169]
+2024-07-02 18:08:59,922 - my_logger - WARNING - F2O PROYECTIONS: NAN ERROR [schmidt.py:176]
+2024-07-02 18:08:59,926 - my_logger - WARNING - SIGMAS: NAN ERROR [schmidt.py:184]
+2024-07-02 19:55:59,500 - my_logger - WARNING - B2B PROYECTIONS: NAN ERROR [schmidt.py:270]
+2024-07-02 20:20:37,422 - my_logger - WARNING - O2B PROYECTIONS: NAN ERROR [schmidt.py:302]
+2024-07-02 20:20:37,423 - my_logger - DEBUG - [[ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.]
+ [ 1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.]
+ [ 1. nan  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.]
+ [ 1. nan nan  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.]
+ [ 1. nan nan nan  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.]
+ [ 1. nan nan nan nan  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.]
+ [ 1. nan nan nan nan nan  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.]
+ [ 1. nan nan nan nan nan nan  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.]
+ [ 1. nan nan nan nan nan nan nan  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.]
+ [ 1. nan nan nan nan nan nan nan nan  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.]
+ [ 1. nan nan nan nan nan nan nan nan nan  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.]
+ [ 1. nan nan nan nan nan nan nan nan nan nan  0.  0.  0.  0.  0.  0.  0.
+   0.  0.]
+ [ 1. nan nan nan nan nan nan nan nan nan nan nan  0.  0.  0.  0.  0.  0.
+   0.  0.]
+ [ 1. nan nan nan nan nan nan nan nan nan nan nan nan  0.  0.  0.  0.  0.
+   0.  0.]
+ [ 1. nan nan nan nan nan nan nan nan nan nan nan nan nan  0.  0.  0.  0.
+   0.  0.]
+ [ 1. nan nan nan nan nan nan nan nan nan nan nan nan nan nan  0.  0.  0.
+   0.  0.]
+ [ 1. nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan  0.  0.
+   0.  0.]
+ [ 1. nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan  0.
+   0.  0.]
+ [ 1. nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+   0.  0.]
+ [ 1. nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+  nan  0.]] [schmidt.py:303]
+2024-07-02 20:20:37,428 - my_logger - WARNING - BETAS: NAN ERROR [schmidt.py:307]
+2024-07-02 20:20:37,906 - my_logger - WARNING - F2O PROYECTIONS: NAN ERROR [schmidt.py:176]
+2024-07-02 20:20:37,906 - my_logger - WARNING - SIGMAS: NAN ERROR [schmidt.py:184]

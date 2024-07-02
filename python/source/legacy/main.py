@@ -2,8 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from tqdm import tqdm
 import copy
-from source.plots import dibujar_vectores
-from source.evaluations import evaluate_base,evaluate_orts
+from python.source.common.plots import dibujar_vectores
+from python.source.common.evaluations import evaluate_base,evaluate_orts
 
 print("---START---\n")
 ### Define base functions
